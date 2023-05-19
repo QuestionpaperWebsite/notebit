@@ -10,7 +10,7 @@ $conn = new mysqli($servername, $username, $password,$database);
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
-echo "Connected successfully";
+//echo "Connected successfully";
 
 // $sql = "INSERT INTO `notebitdata` VALUES ('arvind','das','arvind@gmail.com','juqdwn','jididjfj')"; 
 // $result =  mysqli_query($conn,$sql);  //code to send data into the database
@@ -29,11 +29,10 @@ if ($_SERVER['REQUEST_METHOD']=='POST'){
   else{
     $sql = "INSERT INTO `notebitdata` VALUES (NULL,'$fname','$lname','$mail','$pass','$cpass')";
     $result = mysqli_query($conn,$sql);
-    $test = "SELECT * FROM `notebitdata` ORDER BY `notebitdata`.`fname` ASC";
-    echo $test;
   
     if($result){
-      echo "Record inserted sucessfully";
+      //echo "Record inserted sucessfully";
+      echo "<script type='text/javascript'>if (window.confirm('Account has been created. Click OK to redirect the Signin Page.')){window.open('index.php', '_blank');};</script>";
     }
 
   }

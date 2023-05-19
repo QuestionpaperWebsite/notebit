@@ -1,6 +1,8 @@
 
 <?php
     include 'conn\connect-signup.php';
+    error_reporting(E_ALL);
+    ini_set('display_errors', 0);
 ?>
 
 <!DOCTYPE html>
@@ -9,6 +11,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- <link rel="stylesheet" href="css/signup-styles.css"> -->
     <title>Sign Up to NoteBit</title>
@@ -75,7 +79,8 @@
                     <i class="fa-solid fa-lock icon"></i>
                     <input type="password" name="cpass" class="form-element" placeholder="Confirm Password" required> 
                 </div> <br>
-                <button type="submit" class="signin">SIGN UP</button> 
+                <button type="submit" class="signin" id="submitbutton">SIGN UP</button> 
+                <p class="noacc">Already have an account?  <a href="index.php" class="signup-link">Sign In</a> </p>
             </form>
         
          

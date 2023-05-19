@@ -81,6 +81,10 @@ body {
     left: 30px; 
 }
 
+.username{
+    display: none;
+}
+
 input {
     width: 50%;
     height: 45px;

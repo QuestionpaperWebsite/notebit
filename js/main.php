@@ -38,4 +38,11 @@ function showPage(){
 
 // }
 
+// $("#submitbutton").click(function() {
+//   if (window.confirm('Account has been created. Click OK to redirect the Signin Page.'))
+//    {
+//    window.open('index.php', '_blank');
+//    };
+// });
+
 </script>

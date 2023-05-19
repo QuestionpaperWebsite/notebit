@@ -17,23 +17,13 @@
         include 'css\branch-styles.php'
     ?>
     
-  
-
     <div class="navbar">
         <div class="user-info">
             <img src="https://cryptologos.cc/logos/uniswap-uni-logo.png" alt="logo" class="user-pfp">
-            <p>Welcome <span id="username">
-            <?php
-   
-            if ($_SERVER['REQUEST_METHOD']=='POST'){
-                    $fname = $_POST['fname'];
-                    $test = "SELECT * FROM `notebitdata` ORDER BY `notebitdata`.`fname` ASC";
-                    echo $test;
-                }
-      
-    ?>
-
-            </span></p>
+            <p><span id="username"><?php 
+            session_start();
+            echo("Welcome ".$_SESSION['Name']);
+            ?></span></p>
         </div>
        <div class="nav-items">
         <ul>
@@ -41,7 +31,7 @@
                 <a href="#" class="nav-item1">About</a>
             </li>
             <li>
-                <a href="#" class="nav-item2">Signout</a>
+                <a href="index.php" class="nav-item2">Signout</a>
             </li>
         </ul>
        </div>

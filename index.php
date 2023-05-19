@@ -1,8 +1,6 @@
 
 <?php
     include 'conn\connect-index.php';
-    // session_start();
-    // $_SESSION["favcolor"] = "green";
 ?>
 <!DOCTYPE html>
 <html lang="en">
