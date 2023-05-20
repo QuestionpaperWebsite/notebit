@@ -10,7 +10,6 @@
     width: 100%;
     height: 100vh;
     background-color: #1F2D47;
-
 }
 nav{
     position: relative;
@@ -83,7 +82,7 @@ nav ul li a:hover{
 .barnch{
     width: 100%;
 }
-.branchselect{
+select{
     color: white;
     text-align: center;
     height: 5vh;
@@ -91,7 +90,7 @@ nav ul li a:hover{
     border-radius: 10px;
     border: 1px solid white;
 }
-.branchoption{
+option{
     background-color: #374661;
     font-size: 10px;
 }
@@ -109,128 +108,22 @@ nav ul li a:hover{
     height: 80vh;
 }
 .cse{
-    background-color: #374661;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: blue;
 }
 .it{
-    background-color: #374661;
+    background-color: red;
 }
 .ece{
-    background-color: #374661;
+    background-color: rgb(0, 255, 0);
 }
 .eee{
-    background-color: #374661;
+    background-color: rgb(255, 251, 0);
 }
 .me{
-    background-color: #374661;
+    background-color: rgb(255, 0, 174);
 }
 .ce{
-    background-color: #374661;
-}
-.aboutus{
-    background-color: #374661;
+    background-color: rgb(0, 255, 255);
 }
 
-.semester{
-    opacity: 0;
-    transition: 0.5s;
-}
-
-.selectsemester{
-    background-color: #6D41DA;
-    color: white;
-    text-align: center;
-    border-radius: 10px;
-}
-.semesteroption{
-    background-color: #374661;
-}
-.innerchildbox-2{
-    width: 99%;
-    height: 75vh;
-}
-.childboxtext{
-    width: 100%;
-    height: 5vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.childboxtext h5{
-  padding: 0 5%;
-  color: white;
-}
-.childboxquestionpaper{
-    overflow: auto;
-    width: 100%;
-    height: 70vh;
-}
-.childboxquestionpaper::-webkit-scrollbar{
-    display: none;
-}
-.search{
-    width: 60%;
-    height: 3vh;
-    background-color: transparent;
-    border: 1px solid white;
-    border-radius: 10px;
-    padding: 0 12px;
-    color: white;
-    text-align: center;
-}
-.search::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: rgb(255, 255, 255);
-  }
-.fa-solid{
-    position: relative;
-    left: px;
-    top: 2px;
-    color: white;
-}
-table {
-    font-family: arial, sans-serif;
-    border-collapse: separate;
-    border-spacing: 0 1em;
-    width: 100%;
-  }
-  
-  td, th {
-    text-align: left;
-    padding: 8px;
-    color: white;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #9970ff;
-  }
-  tr:nth-child(odd) {
-    background-color: #a987ff;
-  }
-
-
-
-/* --------------------------------------------------- CSS OF ABOUT US HERE --------------------------------------------------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*--------------------------------------------------------------------------------------------------------------------------------------- */
 </style>
