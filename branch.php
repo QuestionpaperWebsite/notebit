@@ -27,7 +27,7 @@
                 <div class="navcon" id="navcon">
                     <ul>
                         <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">LOGOUT</a></li>
+                        <li><a href="index.php">LOGOUT</a></li>
                     </ul>
                 </div>
 
