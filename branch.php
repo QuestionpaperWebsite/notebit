@@ -21,7 +21,7 @@
         <nav>
             <div class="navbox">
                 <div class="uppercontent">
-                    <img src="pic.jpg" class="logo">
+                    <img src="https://cryptologos.cc/logos/uniswap-uni-logo.png" class="logo">
                     <div class="nametext"> <?php session_start(); echo("Welcome ".$_SESSION['Name']);?></div>
                 </div>
                 <div class="navcon" id="navcon">

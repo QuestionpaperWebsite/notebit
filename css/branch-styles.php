@@ -4,14 +4,12 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 .maincontent{
     width: 100%;
     height: 100vh;
     background-color: #1F2D47;
-
 }
 nav{
     position: relative;
