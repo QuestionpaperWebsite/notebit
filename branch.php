@@ -35,10 +35,11 @@
         </nav>
 
 
-        <div class="maincontainer2">
+        <div class="maincontainer2" id="deafult">
             <div class="childbox-1">
-                <div class="branch" style="width:200px;">
-                    <select>
+                <div class="branch">
+                    <select id="branchType" name="branchType" required onchange="handlebranchChange(event)">
+                        <option>Choose Branch</option>
                         <option value="CSE">Computer Science and Engineering</option>
                         <option value="IT">Information Technology</option>
                         <option value="ECE">Electronics and Communication Engineering</option>
