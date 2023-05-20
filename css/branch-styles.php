@@ -72,12 +72,15 @@ nav ul li a:hover{
     justify-content: center;
 }
 .childbox-1{
-    width: 92%;
+    width: 100%;
     height: 80vh;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.barnch{
+    width: 100%;
 }
 select{
     color: white;
@@ -89,5 +92,38 @@ select{
 }
 option{
     background-color: #374661;
+    font-size: 10px;
 }
+.maincontainer3{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    bottom: 72vh;
+    display: none;
+    justify-content: center;
+    background-color: #1F2D47;
+}
+.childbox-2{
+    width: 92%;
+    height: 80vh;
+}
+.cse{
+    background-color: blue;
+}
+.it{
+    background-color: red;
+}
+.ece{
+    background-color: rgb(0, 255, 0);
+}
+.eee{
+    background-color: rgb(255, 251, 0);
+}
+.me{
+    background-color: rgb(255, 0, 174);
+}
+.ce{
+    background-color: rgb(0, 255, 255);
+}
+
 </style>

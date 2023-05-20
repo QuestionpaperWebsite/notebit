@@ -50,9 +50,42 @@
             </div>
         </div>
 
+        <div class="maincontainer3" id="show_cse">
+            <div class="childbox-2 cse">
+                
+            </div>
+        </div>
+        <div class="maincontainer3" id="show_it">
+            <div class="childbox-2 it">
+                
+            </div>
+        </div>
+        <div class="maincontainer3" id="show_ece">
+            <div class="childbox-2 ece">
+                
+            </div>
+        </div>
+        <div class="maincontainer3" id="show_eee">
+            <div class="childbox-2 eee">
+                
+            </div>
+        </div>
+        <div class="maincontainer3" id="show_me">
+            <div class="childbox-2 me">
+                
+            </div>
+        </div>
+        <div class="maincontainer3" id="show_ce">
+            <div class="childbox-2 ce">
+                
+            </div>
+        </div>
 
     </section>
     
+    <?php
+        include 'js\branch-js.php'
+    ?>
 
 </body>
 </html>
