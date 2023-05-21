@@ -92,11 +92,11 @@
                  <div class="child2">
                  <h1>Developers</h1>
                  <div class="photu">
-                 <img src="images\logo-no-background.png" class="logo1">
+                 <img src="images\faiz-notebit.png" class="logo1">
                 
-                 <img src="images\logo-no-background.png" class="logo1">
+                 <img src="images\ujjwal-notebit.png" class="logo1">
                 
-                 <img src="images\logo-no-background.png" class="logo1">
+                 <img src="images\rahul-notebit.png" class="logo1">
                  
                  </div>
 
