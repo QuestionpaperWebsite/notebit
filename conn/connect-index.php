@@ -32,6 +32,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if ((mysqli_num_rows($result)) > 0) {
         //echo "Login successful!";
          $_SESSION['Name'] = $show['fname'] ." ". $show['lname'];
+         $_SESSION['mail'] = $mail;
+         $_SESSION['pass'] = $password;
         header("Location: branch.php");
     } else {
         echo "<h1>Invalid login credentials!</h1>";

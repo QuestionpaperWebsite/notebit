@@ -111,9 +111,9 @@
                 <div class="box2">
                    <h2>Your Account</h2>
                    <div class="usertext">
-                    <h4>Username : <?php echo($_SESSION['Name']);?></h4> 
-                    <h4>Mail ID : <?php echo($_SESSION['Name']);?></h4>
-                    <h4>Password : <?php echo($_SESSION['pass']);?></h4>
+                    <h5>Username : <?php echo($_SESSION['Name']);?></h5> 
+                    <h5>Mail ID : <?php echo($_SESSION['mail']);?></h5>
+                    <h5>Password : <?php echo($_SESSION['pass']);?></h5>
                     </div>
                     <!-- <div class="bttn"></div>
                     <button> Connect to Discord</button>

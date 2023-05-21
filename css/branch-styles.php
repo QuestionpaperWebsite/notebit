@@ -159,11 +159,11 @@ h2{
     margin-top: 3%;
 
 }
-h4{
+h5{
     color: white;
     margin-top: 5%;
     margin-left: 5%; 
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
 }
 
