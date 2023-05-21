@@ -116,7 +116,7 @@ nav ul li a{
 }
 .logo1{
     width: 80px;
-    height: 60px;
+    height: 80px;
     border-radius: 80%;
     margin-top: 1.5%;
     margin-left: 1.5%;
