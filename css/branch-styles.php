@@ -39,8 +39,12 @@ nav ul li a{
     color: #fff;
     font-size: 15px;
 }
-nav ul li a:hover{
+.aboutcolor:hover{
     color: #8800ff;
+    transition: 0.5s;
+}
+.logoutcolor:hover{
+    color:red;
     transition: 0.5s;
 }
 .logo{
@@ -82,7 +86,7 @@ nav ul li a:hover{
 .barnch{
     width: 100%;
 }
-select{
+.branchselect{
     color: white;
     text-align: center;
     height: 5vh;
@@ -90,7 +94,7 @@ select{
     border-radius: 10px;
     border: 1px solid white;
 }
-option{
+.branchoption{
     background-color: #374661;
     font-size: 10px;
 }
@@ -108,22 +112,107 @@ option{
     height: 80vh;
 }
 .cse{
-    background-color: blue;
+    background-color: #374661;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .it{
-    background-color: red;
+    background-color: #374661;
 }
 .ece{
-    background-color: rgb(0, 255, 0);
+    background-color: #374661;
 }
 .eee{
-    background-color: rgb(255, 251, 0);
+    background-color: #374661;
 }
 .me{
-    background-color: rgb(255, 0, 174);
+    background-color: #374661;
 }
 .ce{
-    background-color: rgb(0, 255, 255);
+    background-color: #374661;
 }
+.aboutus{
+    background-color: #374661;
+}
+
+.semester{
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.selectsemester{
+    background-color: #6D41DA;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.semesteroption{
+    background-color: #374661;
+}
+.innerchildbox-2{
+    width: 99%;
+    height: 75vh;
+}
+.childboxtext{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.childboxtext h5{
+  padding: 0 5%;
+  color: white;
+}
+.childboxquestionpaper{
+    overflow: auto;
+    width: 100%;
+    height: 70vh;
+}
+.childboxquestionpaper::-webkit-scrollbar{
+    display: none;
+}
+.search{
+    width: 60%;
+    height: 3vh;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 0 12px;
+    color: white;
+    text-align: center;
+}
+.search::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(255, 255, 255);
+  }
+.fa-solid{
+    position: relative;
+    left: px;
+    top: 2px;
+    color: white;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: separate;
+    border-spacing: 0 1em;
+    width: 100%;
+}
+td, th {
+    text-align: left;
+    padding: 8px;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #9970ff;
+  }
+  tr:nth-child(odd) {
+    background-color: #a987ff;
+  }
+
+
+                                       /* DONT MESS THE UPER CSS CODE PLS */
+  /* --------------------------------------------- ABOUT CSS ------------------------------------------------------------ */
 
 </style>

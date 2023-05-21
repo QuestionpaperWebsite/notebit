@@ -24,14 +24,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $mail = $_POST['mail'];
     $password = $_POST['password'];
    
-    $sql = "SELECT fname, mail, pass FROM `notebitdata` WHERE mail = '$mail' AND pass = '$password'";
+    $sql = "SELECT fname, mail, lname, pass FROM `notebitdata` WHERE mail = '$mail' AND pass = '$password'";
     
     $result = mysqli_query($conn, $sql);
     $show = mysqli_fetch_assoc($result);
     
     if ((mysqli_num_rows($result)) > 0) {
         //echo "Login successful!";
-         $_SESSION['Name'] = $show['fname'];
+         $_SESSION['Name'] = $show['fname'] ." ". $show['lname'];
         header("Location: branch.php");
     } else {
         echo "<h1>Invalid login credentials!</h1>";
