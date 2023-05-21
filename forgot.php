@@ -22,7 +22,7 @@
         include 'css\forgot-styles.php'
     ?>
     <div class="container">
-        <div class="box1">
+        <div class="box1"> 
             <img src="https://cryptologos.cc/logos/uniswap-uni-logo.png" class="web-logo" alt="Logo">
             <h1>NoteBit</h1>
 
@@ -54,6 +54,8 @@
 
 
         <div class="box2">
+            <img src="https://cryptologos.cc/logos/uniswap-uni-logo.png" class="web-logo2" alt="Logo">
+            <h1 class="headname2">NoteBit</h1>
             <h2>Enter Registered Email To Resend Password</h2>
             <form action="forgot.php" method="POST">
                 <div class="email">
@@ -61,11 +63,9 @@
                     <input type="text" class="form-element" name="mail" placeholder="Email Address" id="" required> <br>
                 </div>
                 <button type="submit" class="signin">Send password</button> 
-                <?php echo($_SESSION['pass']);?>
             </form>
-            <!-- <i class="fa-brands fa-discord discord-logo"></i> -->
-            <!-- <button type="submit" class="discord">Sign in with Discord</button> -->
-            <!-- <p class="noacc">Don't have an account?  <a href="signup.php" class="signup-link">Sign Up</a> </p> -->
+            <?php echo($_SESSION['pass']);?>
+            <p class="noacc">Go back to the sign in page <a href="index.php" class="signup-link">Click Here</a> </p>
         </div>
         
     </div>

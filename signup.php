@@ -53,6 +53,8 @@
         </div>
             
         <div class="box2">
+            <img src="https://cryptologos.cc/logos/uniswap-uni-logo.png" class="web-logo2" alt="Logo">
+            <h1 class="headname2">NoteBit</h1>
             <h2>Sign up to NoteBit</h2>
             <form action="signup.php" method='POST'>
                 <div class="fname">

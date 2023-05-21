@@ -22,7 +22,7 @@
     <div class="container">
         <div class="box1">
             <img src="https://cryptologos.cc/logos/uniswap-uni-logo.png" class="web-logo" alt="Logo">
-            <h1>NoteBit</h1>
+            <h1 class="headname">NoteBit</h1>
 
             <div class="slideshow-container">
                 <div class="mySlides">
@@ -50,6 +50,8 @@
         </div>
             
         <div class="box2">
+            <img src="https://cryptologos.cc/logos/uniswap-uni-logo.png" class="web-logo2" alt="Logo">
+            <h1 class="headname2">NoteBit</h1>
             <h2>Sign in to NoteBit</h2>
             <form action="index.php" method="POST">
                 <div class="email">

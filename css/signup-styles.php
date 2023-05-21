@@ -57,6 +57,14 @@ body {
     left: 100px;
 }
 
+.web-logo2{
+    display: none;
+}
+
+.headname2{
+    display: none;
+}
+
 .signup-image1 {
     position: relative;
     width: 75%;
@@ -211,5 +219,31 @@ input {
    position: absolute;
    top: 80vh;
   }
+
+  @media screen and (max-width: 992px) {
+  .box1 {
+    display: none;
+  }
+
+  .box2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .web-logo2 {
+    display: inline;
+    position: relative;
+    width: 12%;
+  }
+
+  .headname2 {
+    display: inline;
+    text-align: center;
+  }
+
+  .noacc {
+    margin-left: 6%;
+  }
+}
 
 </style>
