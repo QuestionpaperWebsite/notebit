@@ -9,6 +9,17 @@ var aboutus = document.getElementById('aboutus');
 var deafult_show = document.getElementById('deafult');
 var sem_button_show = document.getElementById('sem');
 
+
+var showsem1 = document.getElementById("sem1");
+var showsem2 = document.getElementById("sem2");
+var showsem3 = document.getElementById("sem3");
+var showsem4 = document.getElementById("sem4");
+var showsem5 = document.getElementById("sem5");
+var showsem6 = document.getElementById("sem6");
+var showsem7 = document.getElementById("sem7");
+var showsem8 = document.getElementById("sem8");
+
+
 function handlebranchChange(event) {
     var paymentType = event.target.value;
     if (paymentType == "CSE") {
@@ -57,5 +68,95 @@ function handlesemesterChange(event) {
     var selectElement = event.target;
     var value = selectElement.value;
     document.getElementById("semnumber").innerHTML = value;
+
+
+    if(value == "Semester: 1")
+    {
+        showsem1.style.display="block";
+        showsem2.style.display="none";
+        showsem3.style.display="none";
+        showsem4.style.display="none";
+        showsem5.style.display="none";
+        showsem6.style.display="none";
+        showsem7.style.display="none";
+        showsem8.style.display="none";
+    }
+    if(value == "Semester: 2")
+    {
+        showsem1.style.display="none";
+        showsem2.style.display="block";
+        showsem3.style.display="none";
+        showsem4.style.display="none";
+        showsem5.style.display="none";
+        showsem6.style.display="none";
+        showsem7.style.display="none";
+        showsem8.style.display="none";
+    }
+    if(value == "Semester: 3")
+    {
+        showsem1.style.display="none";
+        showsem2.style.display="none";
+        showsem3.style.display="block";
+        showsem4.style.display="none";
+        showsem5.style.display="none";
+        showsem6.style.display="none";
+        showsem7.style.display="none";
+        showsem8.style.display="none";
+    }
+    if(value == "Semester: 4")
+    {
+        showsem1.style.display="none";
+        showsem2.style.display="none";
+        showsem3.style.display="none";
+        showsem4.style.display="block";
+        showsem5.style.display="none";
+        showsem6.style.display="none";
+        showsem7.style.display="none";
+        showsem8.style.display="none";
+    }
+    if(value == "Semester: 5")
+    {
+        showsem1.style.display="none";
+        showsem2.style.display="none";
+        showsem3.style.display="none";
+        showsem4.style.display="none";
+        showsem5.style.display="block";
+        showsem6.style.display="none";
+        showsem7.style.display="none";
+        showsem8.style.display="none";
+    }
+    if(value == "Semester: 6")
+    {
+        showsem1.style.display="none";
+        showsem2.style.display="none";
+        showsem3.style.display="none";
+        showsem4.style.display="none";
+        showsem5.style.display="none";
+        showsem6.style.display="block";
+        showsem7.style.display="none";
+        showsem8.style.display="none";
+    }
+    if(value == "Semester: 7")
+    {
+        showsem1.style.display="none";
+        showsem2.style.display="none";
+        showsem3.style.display="none";
+        showsem4.style.display="none";
+        showsem5.style.display="none";
+        showsem6.style.display="none";
+        showsem7.style.display="block";
+        showsem8.style.display="none";
+    }
+    if(value == "Semester: 8")
+    {
+        showsem1.style.display="none";
+        showsem2.style.display="none";
+        showsem3.style.display="none";
+        showsem4.style.display="none";
+        showsem5.style.display="none";
+        showsem6.style.display="none";
+        showsem7.style.display="none";
+        showsem8.style.display="block";
+    }
 }
 </script>

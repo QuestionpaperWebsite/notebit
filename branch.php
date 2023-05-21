@@ -97,20 +97,153 @@
                             onblur="this.placeholder='Search'">
                         </div>
                     </div>
-                    <div class="childboxquestionpaper">
+                    <div class="childboxquestionpaper" id="sem1">
                         <table>
                             <tr>
-                              <td>DataBase Management System</td>
+                              <td>DataBase Management System 1</td>
                               <td>Mid Semester</td>
                               <td>Download</td>
                             </tr>
                             <tr>
-                              <td>DataBase Management System</td>
+                              <td>DataBase Management System 1</td>
                               <td>Mid Semester</td>
                               <td>Download</td>
                             </tr>
                             <tr>
-                              <td>DataBase Management System</td>
+                              <td>DataBase Management System 1</td>
+                              <td>Mid Semester</td>
+                              <td>Download</td>
+                            </tr>
+                          </table>
+                    </div>
+                    <div class="childboxquestionpaper" id="sem2">
+                        <table>
+                            <tr>
+                              <td>DataBase Management System 2</td>
+                              <td>Mid Semester</td>
+                              <td>Download</td>
+                            </tr>
+                            <tr>
+                              <td>DataBase Management System 2</td>
+                              <td>Mid Semester</td>
+                              <td>Download</td>
+                            </tr>
+                            <tr>
+                              <td>DataBase Management System 2</td>
+                              <td>Mid Semester</td>
+                              <td>Download</td>
+                            </tr>
+                          </table>
+                    </div>
+                    <div class="childboxquestionpaper" id="sem3">
+                        <table>
+                            <tr>
+                              <td>DataBase Management System 3</td>
+                              <td>Mid Semester</td>
+                              <td>Download</td>
+                            </tr>
+                            <tr>
+                              <td>DataBase Management System 3</td>
+                              <td>Mid Semester</td>
+                              <td>Download</td>
+                            </tr>
+                            <tr>
+                              <td>DataBase Management System 3</td>
+                              <td>Mid Semester</td>
+                              <td>Download</td>
+                            </tr>
+                          </table>
+                    </div>
+                    <div class="childboxquestionpaper" id="sem4">
+                        <table>
+                            <tr>
+                              <td>DataBase Management System 4</td>
+                              <td>Mid Semester</td>
+                              <td>Download</td>
+                            </tr>
+                            <tr>
+                              <td>DataBase Management System 4</td>
+                              <td>Mid Semester</td>
+                              <td>Download</td>
+                            </tr>
+                            <tr>
+                              <td>DataBase Management System 4</td>
+                              <td>Mid Semester</td>
+                              <td>Download</td>
+                            </tr>
+                          </table>
+                    </div>
+                    <div class="childboxquestionpaper" id="sem5">
+                        <table>
+                            <tr>
+                              <td>DataBase Management System 5</td>
+                              <td>Mid Semester</td>
+                              <td>Download</td>
+                            </tr>
+                            <tr>
+                              <td>DataBase Management System 5</td>
+                              <td>Mid Semester</td>
+                              <td>Download</td>
+                            </tr>
+                            <tr>
+                              <td>DataBase Management System 5</td>
+                              <td>Mid Semester</td>
+                              <td>Download</td>
+                            </tr>
+                          </table>
+                    </div>
+                    <div class="childboxquestionpaper" id="sem6">
+                        <table>
+                            <tr>
+                              <td>DataBase Management System 6</td>
+                              <td>Mid Semester</td>
+                              <td>Download</td>
+                            </tr>
+                            <tr>
+                              <td>DataBase Management System 6</td>
+                              <td>Mid Semester</td>
+                              <td>Download</td>
+                            </tr>
+                            <tr>
+                              <td>DataBase Management System 6</td>
+                              <td>Mid Semester</td>
+                              <td>Download</td>
+                            </tr>
+                          </table>
+                    </div>
+                    <div class="childboxquestionpaper" id="sem7">
+                        <table>
+                            <tr>
+                              <td>DataBase Management System 7</td>
+                              <td>Mid Semester</td>
+                              <td>Download</td>
+                            </tr>
+                            <tr>
+                              <td>DataBase Management System 7</td>
+                              <td>Mid Semester</td>
+                              <td>Download</td>
+                            </tr>
+                            <tr>
+                              <td>DataBase Management System 7</td>
+                              <td>Mid Semester</td>
+                              <td>Download</td>
+                            </tr>
+                          </table>
+                    </div>
+                    <div class="childboxquestionpaper" id="sem8">
+                        <table>
+                            <tr>
+                              <td>DataBase Management System 8</td>
+                              <td>Mid Semester</td>
+                              <td>Download</td>
+                            </tr>
+                            <tr>
+                              <td>DataBase Management System 8</td>
+                              <td>Mid Semester</td>
+                              <td>Download</td>
+                            </tr>
+                            <tr>
+                              <td>DataBase Management System 8</td>
                               <td>Mid Semester</td>
                               <td>Download</td>
                             </tr>
