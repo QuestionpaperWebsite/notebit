@@ -48,9 +48,10 @@ nav ul li a{
     transition: 0.5s;
 }
 .logo{
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 50px;
     border-radius: 80%;
+    bottom: 2%;
 }
 .uppercontent{
     width: 50%;
@@ -75,6 +76,97 @@ nav ul li a{
     display: flex;
     justify-content: center;
 }
+
+.mainbox{
+    justify-content: space-between;
+    overflow:hidden; 
+    display:flex;
+    width:100%
+}
+.box1{
+ background-color: #fff;
+ height: 70vh; 
+ width:58%;
+ margin-top: 4%;
+ margin-left: 2%;
+ background-color: #374661; 
+}
+.child1{
+    background-color: #1f2d47;
+ height: 35vh; 
+ width: 100%;
+ border-radius: 25px;
+ overflow:hidden;
+}
+.child2{
+    background-color: #1f2d47;
+    height: 27vh; 
+    width:100%;
+    border-radius: 25px;
+}
+.box2{
+    margin-right: 4%;
+    margin-top: 4%;
+    width:30%;
+    background-color: #1f2d47; 
+    height: 60vh;
+    border-radius: 25px;
+   
+ 
+}
+.logo1{
+    width: 80px;
+    height: 60px;
+    border-radius: 80%;
+    margin-top: 1.5%;
+    margin-left: 1.5%;
+}
+h1{
+    color: white;
+    font-size: 35px;
+    display:inline;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+p{
+    margin-left: 3%;
+    color: white;
+    margin-top: 3%;
+}
+.child2 h1{
+    margin-left: 3%;
+    color: white;
+}
+.photu{
+    margin-left: 2%; 
+    margin-top: 1.5%;
+    display:flex;
+     justify-content: space-between; 
+     width:80%;
+}
+.name{
+    color: white;
+    margin-top: 1%;
+     margin-left: 4.3%; 
+    width:78%;
+    display:flex;
+     justify-content: space-between;
+}
+h2{
+    color: white;
+    font-size: 35px;
+    margin-left: 4%;
+    margin-top: 3%;
+
+}
+h4{
+    color: white;
+    margin-top: 5%;
+    margin-left: 5%; 
+    font-size: 20px;
+    font-weight: 400;
+}
+
 .childbox-1{
     width: 100%;
     height: 80vh;

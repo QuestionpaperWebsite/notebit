@@ -21,7 +21,7 @@
     ?>
     <div class="container">
         <div class="box1">
-            <img src="https://cryptologos.cc/logos/uniswap-uni-logo.png" class="web-logo" alt="Logo">
+            <img src="images\logo-no-background.png" class="web-logo" alt="Logo">
             <h1 class="headname">NoteBit</h1>
 
             <div class="slideshow-container">
@@ -50,7 +50,7 @@
         </div>
             
         <div class="box2">
-            <img src="https://cryptologos.cc/logos/uniswap-uni-logo.png" class="web-logo2" alt="Logo">
+            <img src="images\logo-no-background.png" class="web-logo2" alt="Logo">
             <h1 class="headname2">NoteBit</h1>
             <h2>Sign in to NoteBit</h2>
             <form action="index.php" method="POST">
@@ -63,7 +63,7 @@
                     <i class="fa-solid fa-lock icon"></i>
                     <input type="password" class="form-element" name="password" placeholder="Password" required> <br> <br> 
                 </div> <br> 
-                
+                <p id="invalid-login"></p>
                 <a href="forgot.php" class="forgot">Forgot Password?</a> <br>
                 <button type="submit" class="signin">SIGN IN</button> 
             </form>

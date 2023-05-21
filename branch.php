@@ -1,6 +1,7 @@
 <?php
     include 'conn\connect-branch.php';
     include 'conn\connect-signup.php';
+    include 'conn\connect-forgot.php';
     session_start();
 ?>
 <!DOCTYPE html>
@@ -22,7 +23,7 @@
         <nav>
             <div class="navbox">
                 <div class="uppercontent">
-                    <img src="https://cryptologos.cc/logos/uniswap-uni-logo.png" class="logo">
+                    <img src="images\logo-no-background.png" class="logo">
                     <div class="nametext">
                     <?php echo("Welcome ".$_SESSION['Name']);?>
                     </div>
@@ -71,17 +72,54 @@
 
         <div class="maincontainer3" id="aboutus">
             <div class="childbox-2 aboutus">
+              <!-- HERE WRITE THE CODE OF ABOUT US -->
+              <div class="mainbox">
+                <div class="box1">
+                 <div class="child1">
+                 <img src="images\logo-no-background.png" class="logo1">
+                 <!-- <div class="name">About NoteBit</div> -->
+                 <h1>About NoteBit</h1>
+                 <p>
+                 Welcome to NoteBit, a go-to platform for BIT students seeking past year question papers. 
+                 Our mission is to simplify exam preparation by providing an extensive collection of previous question papers.
+                 With a user-friendly interface, we aim to assist students in accessing the materials they need effortlessly. 
+                 Boost your confidence and improve your performance with our comprehensive database of past year question papers. 
+                 Join us today and take a step towards achieving your academic goals.
+                 </p>
+                 </div>
+                 
+                  <br>
+                 <div class="child2">
+                 <h1>Developers</h1>
+                 <div class="photu">
+                 <img src="images\logo-no-background.png" class="logo1">
+                
+                 <img src="images\logo-no-background.png" class="logo1">
+                
+                 <img src="images\logo-no-background.png" class="logo1">
+                 
+                 </div>
 
+                 <div class="name">
+                 <h3>Faiz Khan</h3>
+                 <h3>Ujjwal Kumar</h3>
+                 <h3>Rahul Raj</h3>
+                 </div>
+                 </div>
+                </div>
 
-
-
-
-                <!-- HERE WRITE THE CODE OF ABOUT US -->
-
-
-
-
-
+                <div class="box2">
+                   <h2>Your Account</h2>
+                   <div class="usertext">
+                    <h4>Username : <?php echo($_SESSION['Name']);?></h4> 
+                    <h4>Mail ID : <?php echo($_SESSION['Name']);?></h4>
+                    <h4>Password : <?php echo($_SESSION['pass']);?></h4>
+                    </div>
+                    <!-- <div class="bttn"></div>
+                    <button> Connect to Discord</button>
+                    </div> -->
+                </div>
+               </div>
 
 
             </div>
