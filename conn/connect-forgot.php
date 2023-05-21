@@ -14,7 +14,7 @@ $conn = new mysqli($servername, $username, $password,$database);
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
-//echo "Connected successfully";
+// echo "Connected successfully";
 
 
 
@@ -22,22 +22,21 @@ if ($conn->connect_error) {
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Retrieve form data
     $mail = $_POST['mail'];
-    $password = $_POST['password'];
    
-    $sql = "SELECT fname, mail, lname, pass FROM `notebitdata` WHERE mail = '$mail' AND pass = '$password'";
+    $sql = "SELECT fname, mail, pass FROM `notebitdata` WHERE mail = '$mail'";
     
     $result = mysqli_query($conn, $sql);
     $show = mysqli_fetch_assoc($result);
     
     if ((mysqli_num_rows($result)) > 0) {
         //echo "Login successful!";
-         $_SESSION['Name'] = $show['fname'] ." ". $show['lname'];
-        header("Location: branch.php");
+         $_SESSION['pass'] = $show['pass'];
+        // header("Location: branch.php");
     } else {
-        echo "<h1>Invalid login credentials!</h1>";
+        echo "<h1>Enter a valid email</h1>";
     }
 
-    $sql = "SELECT fname FROM `notebitdata` WHERE mail = '$mail' AND pass = '$password'";
+    $sql = "SELECT pass FROM `notebitdata` WHERE mail = '$mail'";
     $result = mysqli_query($conn, $sql);
 
 
