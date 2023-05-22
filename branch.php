@@ -23,7 +23,7 @@
         <nav>
             <div class="navbox">
                 <div class="uppercontent">
-                    <img src="images\logo-no-background.png" class="logo">
+                    <img src="images\notebit-new-logo.png" class="logo">
                     <div class="nametext">
                     <?php echo("Welcome ".$_SESSION['Name']);?>
                     </div>
@@ -76,10 +76,10 @@
               <div class="mainbox">
                 <div class="box1">
                  <div class="child1">
-                 <img src="images\logo-no-background.png" class="logo1">
+                 <img src="images\notebit-new-logo.png" class="logo1">
                  <!-- <div class="name">About NoteBit</div> -->
-                 <h1>About NoteBit</h1>
-                 <p>
+                 <h1 class="branch-aboutus">About NoteBit</h1>
+                 <p class="branch-aboutus-text"> 
                  Welcome to NoteBit, a go-to platform for BIT students seeking past year question papers. 
                  Our mission is to simplify exam preparation by providing an extensive collection of previous question papers.
                  With a user-friendly interface, we aim to assist students in accessing the materials they need effortlessly. 
@@ -107,12 +107,12 @@
                  </div>
                  </div>
                 </div>
-
+                    
                 <div class="box2">
                    <h2>Your Account</h2>
                    <div class="usertext">
                     <h5>Username : <?php echo($_SESSION['Name']);?></h5> 
-                    <h5>Mail ID : <?php echo($_SESSION['mail']);?></h5>
+                    <h5>Email : <?php echo($_SESSION['mail']);?></h5>
                     <h5>Password : <?php echo($_SESSION['pass']);?></h5>
                     </div>
                     <!-- <div class="bttn"></div>
@@ -120,8 +120,6 @@
                     </div> -->
                 </div>
                </div>
-
-
             </div>
         </div>
         <div class="maincontainer3" id="show_cse">

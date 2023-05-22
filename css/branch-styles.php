@@ -48,9 +48,9 @@ nav ul li a{
     transition: 0.5s;
 }
 .logo{
-    width: 80px;
+    width: 50px;
     height: 50px;
-    border-radius: 80%;
+    /* border-radius: 80%; */
     bottom: 2%;
 }
 .uppercontent{
@@ -92,7 +92,7 @@ nav ul li a{
  background-color: #374661; 
 }
 .child1{
-    background-color: #1f2d47;
+ background-color: #1f2d47;
  height: 35vh; 
  width: 100%;
  border-radius: 25px;
@@ -111,13 +111,22 @@ nav ul li a{
     background-color: #1f2d47; 
     height: 60vh;
     border-radius: 25px;
-   
- 
+}
+
+.branch-aboutus{
+    position: relative;
+    bottom: 10%;
+    right: 2%;
+}
+
+.branch-aboutus-text{
+    position: relative;
+    bottom: 10%;
 }
 .logo1{
     width: 80px;
     height: 80px;
-    border-radius: 80%;
+    /* border-radius: 80%; */
     margin-top: 1.5%;
     margin-left: 1.5%;
 }
@@ -141,8 +150,8 @@ p{
     margin-left: 2%; 
     margin-top: 1.5%;
     display:flex;
-     justify-content: space-between; 
-     width:80%;
+    justify-content: space-between; 
+    width:80%;
 }
 .name{
     color: white;
@@ -311,5 +320,83 @@ background-color: #374661;
 
                                        /* DONT MESS THE UPER CSS CODE PLS */
   /* --------------------------------------------- ABOUT CSS ------------------------------------------------------------ */
+
+  @media screen and (max-width: 600px) {
+
+    /* .childbox-2 {
+        height: 100%;
+        overflow: visible;
+    } */
+
+    .mainbox {
+        display: block;
+        height: 100%;
+        overflow: auto;
+        text-align: center;
+    }
+
+    .box1 {
+        display: block;
+        width: 100%;
+        height: 95%;
+        margin: 0;
+    }
+
+    .child1 {
+        height: 40vh; 
+        width: 95%;
+        margin-left: 2%;
+        margin-top: 5%;
+        overflow: auto;
+    }
+
+    .child1 h1 {
+        display: block;
+        margin-top: 10%;
+    }
+
+    .child1 img {
+        display: block;
+        margin-top: 8%;
+        margin-left: 38%;
+    }
+
+    .child1 p {
+        margin: 0;
+        margin: 5% 2% 0 2%;
+    }
+
+    .child2 {
+        width: 95%;
+        margin-left: 2%;
+        margin-top: 5%;
+        overflow: auto;
+    }
+
+    .logo1 {
+        margin-left: 8%;
+    }
+
+    h3 {
+        margin-left: 12%;
+    }
+
+    .box2 {
+        display: block;
+        width: 95%;  
+        height: 30%;
+        margin: 0;
+        margin-left: 2%;
+    }
+
+    .box2 h2 {
+        /* margin: 0; */
+    }
+
+    .box2 h5 {
+        margin: 0;
+        margin-top: 4%;
+    }
+}
 
 </style>
