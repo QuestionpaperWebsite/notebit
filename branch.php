@@ -29,7 +29,14 @@
                     </div>
                 </div>
                 <div class="navcon" id="navcon">
+                <svg xmlns="http://www.w3.org/2000/svg" class="menu" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round" onclick="hidemenu()">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <line x1="18" y1="6" x2="6" y2="18" />
+                        <line x1="6" y1="6" x2="18" y2="18" />
+                </svg>
                     <ul>
+                      <li ><a href="#" onclick="about()" class="aboutcolor">ABOUT</a></li>
+                      <li ><a href="index.php" class="logoutcolor">LOGOUT</a></li>
                     <li>
                             <div class="semester" id="sem"> 
                                 <select class="selectsemester" id="branchType" name="branchType" required onchange="handlesemesterChange(event)">
@@ -45,12 +52,15 @@
                                 </select>
                             </div>
                         </li>
-                        <li ><a href="#" onclick="about()" class="aboutcolor">ABOUT</a></li>
-                        <li ><a href="index.php" class="logoutcolor">LOGOUT</a></li>
                     </ul>
                 </div>
-
-            </div>
+              </div>
+              <svg xmlns="http://www.w3.org/2000/svg" class="menut" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round" onclick="showmenu()">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <line x1="4" y1="6" x2="20" y2="6" />
+                <line x1="4" y1="12" x2="20" y2="12" />
+                <line x1="4" y1="18" x2="20" y2="18" />
+              </svg>
         </nav>
 
 

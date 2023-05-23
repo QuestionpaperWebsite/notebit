@@ -11,6 +11,11 @@
     height: 100vh;
     background-color: #1F2D47;
 }
+.navcon{
+    display: block;
+    flex: 1;
+    text-align: right;
+}
 nav{
     position: relative;
     top: 5%;
@@ -32,12 +37,15 @@ nav ul li{
     list-style: none;
     display: inline-block;
     /* margin-left: 30px; */
-    padding: 5% 20px;
+    padding: 1% 20px;
 }
 nav ul li a{
     text-decoration: none;
     color: #fff;
     font-size: 15px;
+}
+nav svg{
+    display: none;
 }
 .aboutcolor:hover{
     color: #8800ff;
@@ -396,6 +404,36 @@ background-color: #374661;
     .box2 h5 {
         margin: 0;
         margin-top: 4%;
+    }
+    .navcon{
+        position: relative;
+        background-color: #1D2C62;
+        width: 100%;
+        height: 25vh;
+        z-index: 2;
+        text-align: center;
+        left: 0;
+        transition: 1s;
+        border-radius: 10px;
+        border: 1px solid rgb(5, 5, 5);
+        display: none;
+    }
+    nav ul li{
+        padding: 10%;
+    }
+    nav ul li a{
+        font-size: 17px;
+    }
+    nav svg{
+        display: block;
+        padding-top: 1%;
+        font-size: 10px;
+        cursor: pointer;
+    }
+    .menut{
+        position: absolute;
+        top: 1vh;
+        right: 5vh;
     }
 }
 

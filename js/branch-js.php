@@ -159,4 +159,14 @@ function handlesemesterChange(event) {
         showsem8.style.display="block";
     }
 }
+
+var navcontent = document.getElementById("navcon");
+function showmenu(){
+    navcontent.style.display="block";
+
+}
+function hidemenu(){
+    navcontent.style.display="none";
+    
+}
 </script>
