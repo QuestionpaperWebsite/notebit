@@ -51,6 +51,10 @@ nav svg{
     color: #8800ff;
     transition: 0.5s;
 }
+.admincolor:hover{
+    color: #8800ff;
+    transition: 0.5s;
+}
 .logoutcolor:hover{
     color:red;
     transition: 0.5s;
@@ -169,19 +173,18 @@ p{
     display:flex;
      justify-content: space-between;
 }
-h2{
+.box2 h2{
     color: white;
     font-size: 35px;
-    margin-left: 4%;
-    margin-top: 3%;
+    margin-left: 5%;
 
 }
-h5{
+.box2 h5{
     color: white;
     margin-top: 5%;
-    margin-left: 5%; 
     font-size: 15px;
     font-weight: 400;
+    margin-left: 5%;
 }
 
 .childbox-1{
@@ -242,6 +245,9 @@ h5{
     background-color: #374661;
 }
 .aboutus{
+    background-color: #374661;
+}
+.adminmenu{
     background-color: #374661;
 }
 
@@ -324,6 +330,96 @@ td, th {
 display: none;
 background-color: #374661;
 }
+
+/* ----------------------------------------------------------------------------- ADMIN MENU -------------------------------------------------------------- */
+
+.adminbox_1{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.adminbox_1 h2{
+   padding: 0 5%;
+   color: white;
+}
+.adminbox_2{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ttbox{
+    width: 20%;
+    height: 30vh;
+    background-color: #1D2C62;
+    border-radius: 10px;
+}
+.iobox1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.iobox2{
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+}
+.usernumber h1{
+    font-size: 6rem;
+    font-weight: lighter;
+}
+.usernumber h5{
+    font-size: 1rem;
+}
+.usernumber h2{
+    font-size: 0.8rem;
+    padding-bottom: 10%;
+    color: rgb(0, 174, 255);
+    font-weight: lighter;
+}
+.usernumber h3{
+    font-size: 1rem;
+    padding-bottom: 6%;
+    color: rgb(0, 255, 81);
+    font-weight: lighter;
+}
+.serverdetail{
+    width: 100%;
+    text-align: left;
+    padding: 5% 10%;
+    font-size: 10px;
+}
+.tablecontent{
+    margin-top: 1%;
+    width: 100%;
+    height: 38vh;
+    overflow: scroll;
+}
+.tablecontent::-webkit-scrollbar{
+    display: none;
+}
+.adminmenu table{
+    width: 100%;
+    border-collapse: collapse;
+    border-color: rgb(23, 20, 20);
+}
+.adminmenu table th{
+    text-align: center;
+    background-color: #222739;
+}
+.adminmenu table td{
+    text-align: center;
+}
+.adminmenu table tr{
+    background-color: transparent;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 
                                        /* DONT MESS THE UPER CSS CODE PLS */
@@ -434,6 +530,44 @@ background-color: #374661;
         position: absolute;
         top: 1vh;
         right: 5vh;
+    }
+    .adminbox_1{
+        height: 5vh;
+    }
+
+    .adminbox_2{
+        height: 40vh;
+        display: block;
+        overflow: scroll;
+        background-color: #222739;
+        border-bottom: 5px solid black ;
+    }
+    .ttbox{
+        width: 100%;
+        height: 20vh;
+        margin-top: 5%;
+        border-radius: 0px;
+    }
+    .usernumber h2{
+        font-size: 1rem;
+        padding-bottom: 10%;
+        color: rgb(0, 174, 255);
+        font-weight: lighter;
+    }
+
+    .tablecontent{
+        margin-top: 1%;
+        width: 100%;
+        height: 33vh;
+        overflow: scroll;
+    }
+    .tablecontent::-webkit-scrollbar{
+        display: none;
+    }
+    .adminmenu table{
+        width: 100%;
+        border-collapse: collapse;
+        border-color: rgb(23, 20, 20);
     }
 }
 

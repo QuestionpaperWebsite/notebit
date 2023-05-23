@@ -1,20 +1,5 @@
 <?php
-$servername = "localhost:3308";
-$username = "root";
-$password = "";
-$database = "notebit";
-
-
-$conn = new mysqli($servername, $username, $password,$database);
-
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
-//echo "Connected successfully";
-
-// $sql = "INSERT INTO `notebitdata` VALUES ('arvind','das','arvind@gmail.com','juqdwn','jididjfj')"; 
-// $result =  mysqli_query($conn,$sql);  //code to send data into the database
-
+include 'conn\connection.php';
 if ($_SERVER['REQUEST_METHOD']=='POST'){
   $fname = $_POST['fname'];
   $lname = $_POST['lname'];

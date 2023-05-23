@@ -1,7 +1,11 @@
 <?php
+    
+    include 'conn\connect-index.php';
     include 'conn\connect-branch.php';
     include 'conn\connect-signup.php';
     include 'conn\connect-forgot.php';
+    include 'conn\latestuser.php';
+    include 'conn\connection.php';
     session_start();
 ?>
 <!DOCTYPE html>
@@ -35,6 +39,14 @@
                         <line x1="6" y1="6" x2="18" y2="18" />
                 </svg>
                     <ul>
+                      <?php
+                      $mail_check = "admin@notebit";
+                      $pass_check = "admin";
+                      if($mail_check == $_SESSION['mail'] && $pass_check == $_SESSION['pass'])
+                      {
+                        echo "<li><a href='#' onclick='admin()' class='admincolor'>ADMIN</a></li>";
+                      }
+                      ?>
                       <li ><a href="#" onclick="about()" class="aboutcolor">ABOUT</a></li>
                       <li ><a href="index.php" class="logoutcolor">LOGOUT</a></li>
                     <li>
@@ -132,6 +144,81 @@
                </div>
             </div>
         </div>
+
+        <div class="maincontainer3" id="adminmenu">
+            <div class="childbox-2 adminmenu">
+
+                <div class="adminbox_1">
+                    <h2>ADMIN MENU</h2>
+                </div>
+                <div class="adminbox_2">
+                    <div class="ttbox iobox1">
+                        <div class="usernumber">
+                            <h1><?php echo($_SESSION['totaluser']);?></h1>
+                            <br>
+                            <h5>USER</h5>
+                        </div>
+                    </div>
+                    <div class="ttbox iobox1">
+                        <div class="usernumber">
+                            <h2><?php echo($_SESSION['latestuser']);?></h2>
+                            <br>
+                            <h5>LATEST USER</h5>
+                        </div>
+                    </div>
+                    <div class="ttbox iobox1">
+                        <div class="usernumber">
+                            <h3>ADMIN</h3>
+                            <br>
+                            <h5>ADMIN PERK</h5>
+                        </div>
+                    </div>
+                    <div class="ttbox iobox2">
+                        <div class="usernumber">
+                            
+                          <div class="serverdetail">HOSTNAME : <?php echo(get_current_user());?></div>
+                          <div class="serverdetail">SYSTEM NAME : <?php echo(gethostbyaddr($_SERVER['REMOTE_ADDR']));?></div>
+                          <div class="serverdetail">SERVERNAME : <?php echo($_SESSION['servername']);?></div>
+                          <div class="serverdetail">DATABASE : <?php echo($_SESSION['database']);?></div>
+                          
+
+                        </div>
+                    </div>
+                </div>
+                <div class="tablecontent">
+
+                    <table border="1">
+                        <tr>
+                            <th>Sno</th>
+                            <th>Name</th>
+                            <th>Mail</th>
+                            <th>Pass</th>
+                        </tr>
+                        <?php
+                        if($total!=0)
+                        {
+                          foreach($data as $print)
+                          {
+                            echo "
+                            <tr>
+                            <td>".$print['no']."</td>
+                            <td>".$print['fname']."</td>
+                            <td>".$print['mail']."</td>
+                            <td>".$print['pass']."</td>
+                            </tr>
+                            
+                            ";
+                          }
+                        }
+                        ?>
+                    </table>
+
+                </div>
+         </div> 
+
+
+
+
         <div class="maincontainer3" id="show_cse">
             <div class="childbox-2 cse">
                 <div class="innerchildbox-2">

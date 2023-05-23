@@ -8,6 +8,7 @@ var show_ce = document.getElementById('show_ce');
 var aboutus = document.getElementById('aboutus');
 var deafult_show = document.getElementById('deafult');
 var sem_button_show = document.getElementById('sem');
+var showadmin = document.getElementById('adminmenu');
 
 
 var showsem1 = document.getElementById("sem1");
@@ -58,9 +59,24 @@ function about()
     show_eee.style.display="none";
     show_me.style.display="none";
     show_ce.style.display="none";
+    showadmin.style.display="none";
     sem_button_show.style.opacity="0";
 
 }  
+
+function admin()
+{
+    showadmin.style.display="flex";
+    aboutus.style.display="none";
+    show_cse.style.display="none";
+    show_it.style.display="none";
+    show_ece.style.display="none";
+    show_eee.style.display="none";
+    show_me.style.display="none";
+    show_ce.style.display="none";
+    sem_button_show.style.opacity="0";
+
+} 
 
 
 function handlesemesterChange(event) {

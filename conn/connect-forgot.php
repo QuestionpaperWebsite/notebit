@@ -2,22 +2,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 0);
 session_start();
-$servername = "localhost:3308";
-$username = "root";
-$password = "";
-$database = "notebit";
-
-//Create connection
-$conn = new mysqli($servername, $username, $password,$database);
-
-//Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
-// echo "Connected successfully";
-
-
-
+include 'conn\connection.php';
 // If form is submitted, process the data
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Retrieve form data
