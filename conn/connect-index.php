@@ -25,8 +25,31 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
          $_SESSION['pass'] = $password;
         header("Location: branch.php");
     } else {
+    // echo "<script type='text/javascript'> 
+    //       document.addEventListener('DOMContentLoaded', function() {
+    //           var messageElement = document.getElementById('invalid-login-message');
+    //           messageElement.innerHTML = 'Invalid login details! Please try again';
 
-        //echo "<h1>Invalid login credentials!</h1>";
+    //           setTimeout(function() {
+    //               messageElement.innerHTML = '';
+    //           }, 2000);
+    //       });
+    //   </script>";
+
+    echo "<script type='text/javascript'> 
+          document.addEventListener('DOMContentLoaded', function() {
+              var messageElement = document.getElementById('invalid-login-message');
+              messageElement.innerHTML = 'Invalid login details! Please try again';
+              messageElement.style.transition = 'opacity 0.5s';
+
+              setTimeout(function() {
+                  messageElement.style.opacity = '0';
+                  setTimeout(function() {
+                      messageElement.innerHTML = '';
+                  }, 500);
+              }, 2000);
+          });
+      </script>";
     }
 
     $sql = "SELECT fname FROM `notebitdata` WHERE mail = '$mail' AND pass = '$password'";

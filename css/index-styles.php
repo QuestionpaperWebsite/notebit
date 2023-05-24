@@ -114,6 +114,13 @@ input {
     text-decoration: none;
 }
 
+#invalid-login-message {
+    font-size: 0.8rem;
+    color: red;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
 .signin {
     background-color: #6D41DA;
     margin-left: 20px;

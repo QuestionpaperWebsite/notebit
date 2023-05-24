@@ -110,6 +110,13 @@ input {
     text-decoration: none; 
 }
 
+#invalid-signup-data {
+    font-size: 0.8rem;
+    color: red;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
 .signin {
     background-color: #6D41DA;
     margin-left: 20px;

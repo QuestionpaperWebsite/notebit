@@ -81,6 +81,7 @@
                     <i class="fa-solid fa-lock icon"></i>
                     <input type="password" name="cpass" class="form-element" placeholder="Confirm Password" required> 
                 </div> <br>
+                <p id="invalid-signup-data"></p>
                 <button type="submit" class="signin" id="submitbutton">SIGN UP</button> 
                 <p class="noacc">Already have an account?  <a href="index.php" class="signup-link">Sign In</a> </p>
             </form>

@@ -65,6 +65,7 @@
                 </div> <br> 
                 <p id="invalid-login"></p>
                 <a href="forgot.php" class="forgot">Forgot Password?</a> <br>
+                <p id="invalid-login-message"></p>
                 <button type="submit" class="signin">SIGN IN</button> 
             </form>
             <!-- <i class="fa-brands fa-discord discord-logo"></i> -->

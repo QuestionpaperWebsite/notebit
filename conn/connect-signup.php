@@ -82,13 +82,55 @@ if (isValidEmail($mail)) {
         echo "<script type='text/javascript'>if (window.confirm('Account has been created. Click OK to redirect the Signin Page.')){window.open('index.php', '_blank');};</script>";
       }
   } else {
-      echo "Please enter same password in both fields";
+      // echo "Please enter same password in both fields";
+      echo "<script type='text/javascript'> 
+          document.addEventListener('DOMContentLoaded', function() {
+              var messageElement = document.getElementById('invalid-signup-data');
+              messageElement.innerHTML = 'Please enter same password in both fields!';
+              messageElement.style.transition = 'opacity 0.5s';
+
+              setTimeout(function() {
+                  messageElement.style.opacity = '0';
+                  setTimeout(function() {
+                      messageElement.innerHTML = '';
+                  }, 500);
+              }, 2000);
+          });
+      </script>";
   }
 } else {
-    echo "Password must contain one uppercase, one lowercase, one special character and one digit";
+    // echo "Password must contain one uppercase, one lowercase, one special character and one digit";
+    echo "<script type='text/javascript'> 
+          document.addEventListener('DOMContentLoaded', function() {
+              var messageElement = document.getElementById('invalid-signup-data');
+              messageElement.innerHTML = 'Password must contain one uppercase, one lowercase,<br> one special character and one digit!';
+              messageElement.style.transition = 'opacity 0.5s';
+
+              setTimeout(function() {
+                  messageElement.style.opacity = '0';
+                  setTimeout(function() {
+                      messageElement.innerHTML = '';
+                  }, 500);
+              }, 2000);
+          });
+      </script>";
 }
 } else {
-  echo "Please enter a valid email address";
+  // echo "Please enter a valid email address";
+  echo "<script type='text/javascript'> 
+          document.addEventListener('DOMContentLoaded', function() {
+              var messageElement = document.getElementById('invalid-signup-data');
+              messageElement.innerHTML = 'Please enter a valid email address!';
+              messageElement.style.transition = 'opacity 0.5s';
+
+              setTimeout(function() {
+                  messageElement.style.opacity = '0';
+                  setTimeout(function() {
+                      messageElement.innerHTML = '';
+                  }, 500);
+              }, 2000);
+          });
+      </script>";
 }
 
 
