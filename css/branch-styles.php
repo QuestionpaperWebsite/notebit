@@ -231,18 +231,33 @@ p{
 }
 .it{
     background-color: #374661;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .ece{
     background-color: #374661;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .eee{
     background-color: #374661;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .me{
     background-color: #374661;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .ce{
     background-color: #374661;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .aboutus{
     background-color: #374661;
@@ -252,7 +267,7 @@ p{
 }
 
 .semester{
-    opacity: 0;
+    padding-left:5%;
     transition: 0.5s;
 }
 
@@ -327,6 +342,26 @@ td, th {
   }
 
 #sem1 , #sem2 , #sem3 , #sem4 , #sem5 , #sem6 , #sem7 ,#sem8{
+display: none;
+background-color: #374661;
+}
+#it_sem1 , #it_sem2 , #it_sem3 , #it_sem4 , #it_sem5 , #it_sem6 , #it_sem7 ,#it_sem8{
+display: none;
+background-color: #374661;
+}
+#ece_sem1 , #ece_sem2 , #ece_sem3 , #ece_sem4 , #ece_sem5 , #ece_sem6 , #ece_sem7 ,#ece_sem8{
+display: none;
+background-color: #374661;
+}
+#eee_sem1 , #eee_sem2 , #eee_sem3 , #eee_sem4 , #eee_sem5 , #eee_sem6 , #eee_sem7 ,#eee_sem8{
+display: none;
+background-color: #374661;
+}
+#me_sem1 , #me_sem2 , #me_sem3 , #me_sem4 , #me_sem5 , #me_sem6 , #me_sem7 ,#me_sem8{
+display: none;
+background-color: #374661;
+}
+#ce_sem1 , #ce_sem2 , #ce_sem3 , #ce_sem4 , #ce_sem5 , #ce_sem6 , #ce_sem7 ,#ce_sem8{
 display: none;
 background-color: #374661;
 }

@@ -21,31 +21,32 @@ var showsem7 = document.getElementById("sem7");
 var showsem8 = document.getElementById("sem8");
 
 
+
 function handlebranchChange(event) {
     var paymentType = event.target.value;
     if (paymentType == "CSE") {
         show_cse.style.display="flex";
-        sem_button_show.style.opacity="1";
+        
     }
     if (paymentType == "IT") {
         show_it.style.display="flex";
-        sem_button_show.style.opacity="1";
+       
     }
     if (paymentType == "ECE") {
         show_ece.style.display="flex";
-        sem_button_show.style.opacity="1";
+   
     }
     if (paymentType == "EEE") {
         show_eee.style.display="flex";
-        sem_button_show.style.opacity="1";
+        
     }
     if (paymentType == "ME") {
         show_me.style.display="flex";
-        sem_button_show.style.opacity="1";
+        
     }
     if (paymentType == "CE") {
         show_ce.style.display="flex";
-        sem_button_show.style.opacity="1";
+        
     }
   }
 
@@ -79,11 +80,12 @@ function admin()
 } 
 
 
-function handlesemesterChange(event) {
+function csesemesterChange(event) {
 
     var selectElement = event.target;
     var value = selectElement.value;
-    document.getElementById("semnumber").innerHTML = value;
+    // document.getElementById("semnumber").innerHTML = value;
+    console.log(event);
 
 
     if(value == "Semester: 1")
@@ -175,6 +177,561 @@ function handlesemesterChange(event) {
         showsem8.style.display="block";
     }
 }
+
+//----------------------------------------------------- IT VIEW------------------------------------------------------------
+
+var it_showsem1 = document.getElementById("it_sem1");
+var it_showsem2 = document.getElementById("it_sem2");
+var it_showsem3 = document.getElementById("it_sem3");
+var it_showsem4 = document.getElementById("it_sem4");
+var it_showsem5 = document.getElementById("it_sem5");
+var it_showsem6 = document.getElementById("it_sem6");
+var it_showsem7 = document.getElementById("it_sem7");
+var it_showsem8 = document.getElementById("it_sem8");
+
+function itsemesterChange(event) {
+
+var selectElement = event.target;
+var value = selectElement.value;
+// document.getElementById("semnumber").innerHTML = value;
+
+
+
+if(value == "Semester: 1")
+{
+    it_showsem1.style.display="block";
+    it_showsem2.style.display="none";
+    it_showsem3.style.display="none";
+    it_showsem4.style.display="none";
+    it_showsem5.style.display="none";
+    it_showsem6.style.display="none";
+    it_showsem7.style.display="none";
+    it_showsem8.style.display="none";
+}
+if(value == "Semester: 2")
+{
+    it_showsem1.style.display="none";
+    it_showsem2.style.display="block";
+    it_showsem3.style.display="none";
+    it_showsem4.style.display="none";
+    it_showsem5.style.display="none";
+    it_showsem6.style.display="none";
+    it_showsem7.style.display="none";
+    it_showsem8.style.display="none";
+}
+if(value == "Semester: 3")
+{
+    it_showsem1.style.display="none";
+    it_showsem2.style.display="none";
+    it_showsem3.style.display="block";
+    it_showsem4.style.display="none";
+    it_showsem5.style.display="none";
+    it_showsem6.style.display="none";
+    it_showsem7.style.display="none";
+    it_showsem8.style.display="none";
+}
+if(value == "Semester: 4")
+{
+    it_showsem1.style.display="none";
+    it_showsem2.style.display="none";
+    it_showsem3.style.display="none";
+    it_showsem4.style.display="block";
+    it_showsem5.style.display="none";
+    it_showsem6.style.display="none";
+    it_showsem7.style.display="none";
+    it_showsem8.style.display="none";
+}
+if(value == "Semester: 5")
+{
+    it_showsem1.style.display="none";
+    it_showsem2.style.display="none";
+    it_showsem3.style.display="none";
+    it_showsem4.style.display="none";
+    it_showsem5.style.display="block";
+    it_showsem6.style.display="none";
+    it_showsem7.style.display="none";
+    it_showsem8.style.display="none";
+}
+if(value == "Semester: 6")
+{
+    it_showsem1.style.display="none";
+    it_showsem2.style.display="none";
+    it_showsem3.style.display="none";
+    it_showsem4.style.display="none";
+    it_showsem5.style.display="none";
+    it_showsem6.style.display="block";
+    it_showsem7.style.display="none";
+    it_showsem8.style.display="none";
+}
+if(value == "Semester: 7")
+{
+    it_showsem1.style.display="none";
+    it_showsem2.style.display="none";
+    it_showsem3.style.display="none";
+    it_showsem4.style.display="none";
+    it_showsem5.style.display="none";
+    it_showsem6.style.display="none";
+    it_showsem7.style.display="block";
+    it_showsem8.style.display="none";
+}
+if(value == "Semester: 8")
+{
+    it_showsem1.style.display="none";
+    it_showsem2.style.display="none";
+    it_showsem3.style.display="none";
+    it_showsem4.style.display="none";
+    it_showsem5.style.display="none";
+    it_showsem6.style.display="none";
+    it_showsem7.style.display="none";
+    it_showsem8.style.display="block";
+}
+}
+
+//------------------------------------------------------------------------------------------------------------------------
+
+//----------------------------------------------------- ECE VIEW------------------------------------------------------------
+
+var ece_showsem1 = document.getElementById("ece_sem1");
+var ece_showsem2 = document.getElementById("ece_sem2");
+var ece_showsem3 = document.getElementById("ece_sem3");
+var ece_showsem4 = document.getElementById("ece_sem4");
+var ece_showsem5 = document.getElementById("ece_sem5");
+var ece_showsem6 = document.getElementById("ece_sem6");
+var ece_showsem7 = document.getElementById("ece_sem7");
+var ece_showsem8 = document.getElementById("ece_sem8");
+
+function ecesemesterChange(event) {
+
+var selectElement = event.target;
+var value = selectElement.value;
+// document.getElementById("semnumber").innerHTML = value;
+
+
+
+if(value == "Semester: 1")
+{
+    ece_showsem1.style.display="block";
+    ece_showsem2.style.display="none";
+    ece_showsem3.style.display="none";
+    ece_showsem4.style.display="none";
+    ece_showsem5.style.display="none";
+    ece_showsem6.style.display="none";
+    ece_showsem7.style.display="none";
+    ece_showsem8.style.display="none";
+}
+if(value == "Semester: 2")
+{
+    ece_showsem1.style.display="none";
+    ece_showsem2.style.display="block";
+    ece_showsem3.style.display="none";
+    ece_showsem4.style.display="none";
+    ece_showsem5.style.display="none";
+    ece_showsem6.style.display="none";
+    ece_showsem7.style.display="none";
+    ece_showsem8.style.display="none";
+}
+if(value == "Semester: 3")
+{
+    ece_showsem1.style.display="none";
+    ece_showsem2.style.display="none";
+    ece_showsem3.style.display="block";
+    ece_showsem4.style.display="none";
+    ece_showsem5.style.display="none";
+    ece_showsem6.style.display="none";
+    ece_showsem7.style.display="none";
+    ece_showsem8.style.display="none";
+}
+if(value == "Semester: 4")
+{
+    ece_showsem1.style.display="none";
+    ece_showsem2.style.display="none";
+    ece_showsem3.style.display="none";
+    ece_showsem4.style.display="block";
+    ece_showsem5.style.display="none";
+    ece_showsem6.style.display="none";
+    ece_showsem7.style.display="none";
+    ece_showsem8.style.display="none";
+}
+if(value == "Semester: 5")
+{
+    ece_showsem1.style.display="none";
+    ece_showsem2.style.display="none";
+    ece_showsem3.style.display="none";
+    ece_showsem4.style.display="none";
+    ece_showsem5.style.display="block";
+    ece_showsem6.style.display="none";
+    ece_showsem7.style.display="none";
+    ece_showsem8.style.display="none";
+}
+if(value == "Semester: 6")
+{
+    ece_showsem1.style.display="none";
+    ece_showsem2.style.display="none";
+    ece_showsem3.style.display="none";
+    ece_showsem4.style.display="none";
+    ece_showsem5.style.display="none";
+    ece_showsem6.style.display="block";
+    ece_showsem7.style.display="none";
+    ece_showsem8.style.display="none";
+}
+if(value == "Semester: 7")
+{
+    ece_showsem1.style.display="none";
+    ece_showsem2.style.display="none";
+    ece_showsem3.style.display="none";
+    ece_showsem4.style.display="none";
+    ece_showsem5.style.display="none";
+    ece_showsem6.style.display="none";
+    ece_showsem7.style.display="block";
+    ece_showsem8.style.display="none";
+}
+if(value == "Semester: 8")
+{
+    ece_showsem1.style.display="none";
+    ece_showsem2.style.display="none";
+    ece_showsem3.style.display="none";
+    ece_showsem4.style.display="none";
+    ece_showsem5.style.display="none";
+    ece_showsem6.style.display="none";
+    ece_showsem7.style.display="none";
+    ece_showsem8.style.display="block";
+}
+}
+
+//------------------------------------------------------------------------------------------------------------------------
+
+//----------------------------------------------------- EEE VIEW------------------------------------------------------------
+
+var eee_showsem1 = document.getElementById("eee_sem1");
+var eee_showsem2 = document.getElementById("eee_sem2");
+var eee_showsem3 = document.getElementById("eee_sem3");
+var eee_showsem4 = document.getElementById("eee_sem4");
+var eee_showsem5 = document.getElementById("eee_sem5");
+var eee_showsem6 = document.getElementById("eee_sem6");
+var eee_showsem7 = document.getElementById("eee_sem7");
+var eee_showsem8 = document.getElementById("eee_sem8");
+
+function eeesemesterChange(event) {
+
+var selectElement = event.target;
+var value = selectElement.value;
+// document.getElementById("semnumber").innerHTML = value;
+
+
+
+if(value == "Semester: 1")
+{
+    eee_showsem1.style.display="block";
+    eee_showsem2.style.display="none";
+    eee_showsem3.style.display="none";
+    eee_showsem4.style.display="none";
+    eee_showsem5.style.display="none";
+    eee_showsem6.style.display="none";
+    eee_showsem7.style.display="none";
+    eee_showsem8.style.display="none";
+}
+if(value == "Semester: 2")
+{
+    eee_showsem1.style.display="none";
+    eee_showsem2.style.display="block";
+    eee_showsem3.style.display="none";
+    eee_showsem4.style.display="none";
+    eee_showsem5.style.display="none";
+    eee_showsem6.style.display="none";
+    eee_showsem7.style.display="none";
+    eee_showsem8.style.display="none";
+}
+if(value == "Semester: 3")
+{
+    eee_showsem1.style.display="none";
+    eee_showsem2.style.display="none";
+    eee_showsem3.style.display="block";
+    eee_showsem4.style.display="none";
+    eee_showsem5.style.display="none";
+    eee_showsem6.style.display="none";
+    eee_showsem7.style.display="none";
+    eee_showsem8.style.display="none";
+}
+if(value == "Semester: 4")
+{
+    eee_showsem1.style.display="none";
+    eee_showsem2.style.display="none";
+    eee_showsem3.style.display="none";
+    eee_showsem4.style.display="block";
+    eee_showsem5.style.display="none";
+    eee_showsem6.style.display="none";
+    eee_showsem7.style.display="none";
+    eee_showsem8.style.display="none";
+}
+if(value == "Semester: 5")
+{
+    eee_showsem1.style.display="none";
+    eee_showsem2.style.display="none";
+    eee_showsem3.style.display="none";
+    eee_showsem4.style.display="none";
+    eee_showsem5.style.display="block";
+    eee_showsem6.style.display="none";
+    eee_showsem7.style.display="none";
+    eee_showsem8.style.display="none";
+}
+if(value == "Semester: 6")
+{
+    eee_showsem1.style.display="none";
+    eee_showsem2.style.display="none";
+    eee_showsem3.style.display="none";
+    eee_showsem4.style.display="none";
+    eee_showsem5.style.display="none";
+    eee_showsem6.style.display="block";
+    eee_showsem7.style.display="none";
+    eee_showsem8.style.display="none";
+}
+if(value == "Semester: 7")
+{
+    eee_showsem1.style.display="none";
+    eee_showsem2.style.display="none";
+    eee_showsem3.style.display="none";
+    eee_showsem4.style.display="none";
+    eee_showsem5.style.display="none";
+    eee_showsem6.style.display="none";
+    eee_showsem7.style.display="block";
+    eee_showsem8.style.display="none";
+}
+if(value == "Semester: 8")
+{
+    eee_showsem1.style.display="none";
+    eee_showsem2.style.display="none";
+    eee_showsem3.style.display="none";
+    eee_showsem4.style.display="none";
+    eee_showsem5.style.display="none";
+    eee_showsem6.style.display="none";
+    eee_showsem7.style.display="none";
+    eee_showsem8.style.display="block";
+}
+}
+
+//------------------------------------------------------------------------------------------------------------------------
+
+//----------------------------------------------------- ME VIEW------------------------------------------------------------
+
+var me_showsem1 = document.getElementById("me_sem1");
+var me_showsem2 = document.getElementById("me_sem2");
+var me_showsem3 = document.getElementById("me_sem3");
+var me_showsem4 = document.getElementById("me_sem4");
+var me_showsem5 = document.getElementById("me_sem5");
+var me_showsem6 = document.getElementById("me_sem6");
+var me_showsem7 = document.getElementById("me_sem7");
+var me_showsem8 = document.getElementById("me_sem8");
+
+function mesemesterChange(event) {
+
+var selectElement = event.target;
+var value = selectElement.value;
+// document.getElementById("semnumber").innerHTML = value;
+
+
+
+if(value == "Semester: 1")
+{
+    me_showsem1.style.display="block";
+    me_showsem2.style.display="none";
+    me_showsem3.style.display="none";
+    me_showsem4.style.display="none";
+    me_showsem5.style.display="none";
+    me_showsem6.style.display="none";
+    me_showsem7.style.display="none";
+    me_showsem8.style.display="none";
+}
+if(value == "Semester: 2")
+{
+    me_showsem1.style.display="none";
+    me_showsem2.style.display="block";
+    me_showsem3.style.display="none";
+    me_showsem4.style.display="none";
+    me_showsem5.style.display="none";
+    me_showsem6.style.display="none";
+    me_showsem7.style.display="none";
+    me_showsem8.style.display="none";
+}
+if(value == "Semester: 3")
+{
+    me_showsem1.style.display="none";
+    me_showsem2.style.display="none";
+    me_showsem3.style.display="block";
+    me_showsem4.style.display="none";
+    me_showsem5.style.display="none";
+    me_showsem6.style.display="none";
+    me_showsem7.style.display="none";
+    me_showsem8.style.display="none";
+}
+if(value == "Semester: 4")
+{
+    me_showsem1.style.display="none";
+    me_showsem2.style.display="none";
+    me_showsem3.style.display="none";
+    me_showsem4.style.display="block";
+    me_showsem5.style.display="none";
+    me_showsem6.style.display="none";
+    me_showsem7.style.display="none";
+    me_showsem8.style.display="none";
+}
+if(value == "Semester: 5")
+{
+    me_showsem1.style.display="none";
+    me_showsem2.style.display="none";
+    me_showsem3.style.display="none";
+    me_showsem4.style.display="none";
+    me_showsem5.style.display="block";
+    me_showsem6.style.display="none";
+    me_showsem7.style.display="none";
+    me_showsem8.style.display="none";
+}
+if(value == "Semester: 6")
+{
+    me_showsem1.style.display="none";
+    me_showsem2.style.display="none";
+    me_showsem3.style.display="none";
+    me_showsem4.style.display="none";
+    me_showsem5.style.display="none";
+    me_showsem6.style.display="block";
+    me_showsem7.style.display="none";
+    me_showsem8.style.display="none";
+}
+if(value == "Semester: 7")
+{
+    me_showsem1.style.display="none";
+    me_showsem2.style.display="none";
+    me_showsem3.style.display="none";
+    me_showsem4.style.display="none";
+    me_showsem5.style.display="none";
+    me_showsem6.style.display="none";
+    me_showsem7.style.display="block";
+    me_showsem8.style.display="none";
+}
+if(value == "Semester: 8")
+{
+    me_showsem1.style.display="none";
+    me_showsem2.style.display="none";
+    me_showsem3.style.display="none";
+    me_showsem4.style.display="none";
+    me_showsem5.style.display="none";
+    me_showsem6.style.display="none";
+    me_showsem7.style.display="none";
+    me_showsem8.style.display="block";
+}
+}
+
+//------------------------------------------------------------------------------------------------------------------------
+
+//----------------------------------------------------- CE VIEW------------------------------------------------------------
+
+var ce_showsem1 = document.getElementById("ce_sem1");
+var ce_showsem2 = document.getElementById("ce_sem2");
+var ce_showsem3 = document.getElementById("ce_sem3");
+var ce_showsem4 = document.getElementById("ce_sem4");
+var ce_showsem5 = document.getElementById("ce_sem5");
+var ce_showsem6 = document.getElementById("ce_sem6");
+var ce_showsem7 = document.getElementById("ce_sem7");
+var ce_showsem8 = document.getElementById("ce_sem8");
+
+function cesemesterChange(event) {
+
+var selectElement = event.target;
+var value = selectElement.value;
+// document.getElementById("semnumber").innerHTML = value;
+
+
+
+if(value == "Semester: 1")
+{
+    ce_showsem1.style.display="block";
+    ce_showsem2.style.display="none";
+    ce_showsem3.style.display="none";
+    ce_showsem4.style.display="none";
+    ce_showsem5.style.display="none";
+    ce_showsem6.style.display="none";
+    ce_showsem7.style.display="none";
+    ce_showsem8.style.display="none";
+}
+if(value == "Semester: 2")
+{
+    ce_showsem1.style.display="none";
+    ce_showsem2.style.display="block";
+    ce_showsem3.style.display="none";
+    ce_showsem4.style.display="none";
+    ce_showsem5.style.display="none";
+    ce_showsem6.style.display="none";
+    ce_showsem7.style.display="none";
+    ce_showsem8.style.display="none";
+}
+if(value == "Semester: 3")
+{
+    ce_showsem1.style.display="none";
+    ce_showsem2.style.display="none";
+    ce_showsem3.style.display="block";
+    ce_showsem4.style.display="none";
+    ce_showsem5.style.display="none";
+    ce_showsem6.style.display="none";
+    ce_showsem7.style.display="none";
+    ce_showsem8.style.display="none";
+}
+if(value == "Semester: 4")
+{
+    ce_showsem1.style.display="none";
+    ce_showsem2.style.display="none";
+    ce_showsem3.style.display="none";
+    ce_showsem4.style.display="block";
+    ce_showsem5.style.display="none";
+    ce_showsem6.style.display="none";
+    ce_showsem7.style.display="none";
+    ce_showsem8.style.display="none";
+}
+if(value == "Semester: 5")
+{
+    ce_showsem1.style.display="none";
+    ce_showsem2.style.display="none";
+    ce_showsem3.style.display="none";
+    ce_showsem4.style.display="none";
+    ce_showsem5.style.display="block";
+    ce_showsem6.style.display="none";
+    ce_showsem7.style.display="none";
+    ce_showsem8.style.display="none";
+}
+if(value == "Semester: 6")
+{
+    ce_showsem1.style.display="none";
+    ce_showsem2.style.display="none";
+    ce_showsem3.style.display="none";
+    ce_showsem4.style.display="none";
+    ce_showsem5.style.display="none";
+    ce_showsem6.style.display="block";
+    ce_showsem7.style.display="none";
+    ce_showsem8.style.display="none";
+}
+if(value == "Semester: 7")
+{
+    ce_showsem1.style.display="none";
+    ce_showsem2.style.display="none";
+    ce_showsem3.style.display="none";
+    ce_showsem4.style.display="none";
+    ce_showsem5.style.display="none";
+    ce_showsem6.style.display="none";
+    ce_showsem7.style.display="block";
+    ce_showsem8.style.display="none";
+}
+if(value == "Semester: 8")
+{
+    ce_showsem1.style.display="none";
+    ce_showsem2.style.display="none";
+    ce_showsem3.style.display="none";
+    ce_showsem4.style.display="none";
+    ce_showsem5.style.display="none";
+    ce_showsem6.style.display="none";
+    ce_showsem7.style.display="none";
+    ce_showsem8.style.display="block";
+}
+}
+
+//------------------------------------------------------------------------------------------------------------------------
 
 var navcontent = document.getElementById("navcon");
 function showmenu(){
