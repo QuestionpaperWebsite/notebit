@@ -70,69 +70,157 @@ if ($_SERVER['REQUEST_METHOD']=='POST'){
 //   echo "Please enter a valid email address";
 // }
 
+    $query = "SELECT * FROM `notebitdata` WHERE mail = '$mail'";
+    $queryResult = mysqli_query($conn, $query);
+    // $show = mysqli_fetch_assoc($queryResult);
 
-if (isValidEmail($mail)) {
-  if (validatePassword($pass)) {
-    if ($pass==$cpass) {
-      $sql = "INSERT INTO `notebitdata` VALUES (NULL,'$fname','$lname','$mail','$pass','$cpass')";
-      $result = mysqli_query($conn,$sql);
+
+    // $total = mysqli_num_rows($result);
+    // echo ($_SESSION['totaluser'] = $total);
+    
+    
+    if ((mysqli_num_rows($queryResult)) == 0) {
+        if (isValidEmail($mail)) {
+            if (validatePassword($pass)) {
+              if ($pass==$cpass) {
+                $sql = "INSERT INTO `notebitdata` VALUES (NULL,'$fname','$lname','$mail','$pass','$cpass')";
+                $result = mysqli_query($conn,$sql);
+            
+                if($result){
+                  //echo "Record inserted sucessfully";
+                  echo "<script type='text/javascript'>if (window.confirm('Account has been created. Click OK to redirect the Signin Page.')){window.open('index.php', '_blank');};</script>";
+                }
+            } else {
+                // echo "Please enter same password in both fields";
+                echo "<script type='text/javascript'> 
+                    document.addEventListener('DOMContentLoaded', function() {
+                        var messageElement = document.getElementById('invalid-signup-data');
+                        messageElement.innerHTML = 'Please enter same password in both fields!';
+                        messageElement.style.transition = 'opacity 0.5s';
+          
+                        setTimeout(function() {
+                            messageElement.style.opacity = '0';
+                            setTimeout(function() {
+                                messageElement.innerHTML = '';
+                            }, 500);
+                        }, 2000);
+                    });
+                </script>";
+            }
+          } else {
+              // echo "Password must contain one uppercase, one lowercase, one special character and one digit";
+              echo "<script type='text/javascript'> 
+                    document.addEventListener('DOMContentLoaded', function() {
+                        var messageElement = document.getElementById('invalid-signup-data');
+                        messageElement.innerHTML = 'Password must contain one uppercase, one lowercase,<br> one special character and one digit!';
+                        messageElement.style.transition = 'opacity 0.5s';
+          
+                        setTimeout(function() {
+                            messageElement.style.opacity = '0';
+                            setTimeout(function() {
+                                messageElement.innerHTML = '';
+                            }, 500);
+                        }, 3000);
+                    });
+                </script>";
+          }
+          } else {
+            // echo "Please enter a valid email address";
+            echo "<script type='text/javascript'> 
+                    document.addEventListener('DOMContentLoaded', function() {
+                        var messageElement = document.getElementById('invalid-signup-data');
+                        messageElement.innerHTML = 'Please enter a valid email address!';
+                        messageElement.style.transition = 'opacity 0.5s';
+          
+                        setTimeout(function() {
+                            messageElement.style.opacity = '0';
+                            setTimeout(function() {
+                                messageElement.innerHTML = '';
+                            }, 500);
+                        }, 2000);
+                    });
+                </script>";
+          }
+    } else {
+        // Email already exists in the database
+        echo "<script type='text/javascript'> 
+                    document.addEventListener('DOMContentLoaded', function() {
+                        var messageElement = document.getElementById('invalid-signup-data');
+                        messageElement.innerHTML = 'This email is already in use';
+                        messageElement.style.transition = 'opacity 0.5s';
+          
+                        setTimeout(function() {
+                            messageElement.style.opacity = '0';
+                            setTimeout(function() {
+                                messageElement.innerHTML = '';
+                            }, 500);
+                        }, 2000);
+                    });
+                </script>";
+    }
+
+
+// if (isValidEmail($mail)) {
+//   if (validatePassword($pass)) {
+//     if ($pass==$cpass) {
+//       $sql = "INSERT INTO `notebitdata` VALUES (NULL,'$fname','$lname','$mail','$pass','$cpass')";
+//       $result = mysqli_query($conn,$sql);
   
-      if($result){
-        //echo "Record inserted sucessfully";
-        echo "<script type='text/javascript'>if (window.confirm('Account has been created. Click OK to redirect the Signin Page.')){window.open('index.php', '_blank');};</script>";
-      }
-  } else {
-      // echo "Please enter same password in both fields";
-      echo "<script type='text/javascript'> 
-          document.addEventListener('DOMContentLoaded', function() {
-              var messageElement = document.getElementById('invalid-signup-data');
-              messageElement.innerHTML = 'Please enter same password in both fields!';
-              messageElement.style.transition = 'opacity 0.5s';
+//       if($result){
+//         //echo "Record inserted sucessfully";
+//         echo "<script type='text/javascript'>if (window.confirm('Account has been created. Click OK to redirect the Signin Page.')){window.open('index.php', '_blank');};</script>";
+//       }
+//   } else {
+//       // echo "Please enter same password in both fields";
+//       echo "<script type='text/javascript'> 
+//           document.addEventListener('DOMContentLoaded', function() {
+//               var messageElement = document.getElementById('invalid-signup-data');
+//               messageElement.innerHTML = 'Please enter same password in both fields!';
+//               messageElement.style.transition = 'opacity 0.5s';
 
-              setTimeout(function() {
-                  messageElement.style.opacity = '0';
-                  setTimeout(function() {
-                      messageElement.innerHTML = '';
-                  }, 500);
-              }, 2000);
-          });
-      </script>";
-  }
-} else {
-    // echo "Password must contain one uppercase, one lowercase, one special character and one digit";
-    echo "<script type='text/javascript'> 
-          document.addEventListener('DOMContentLoaded', function() {
-              var messageElement = document.getElementById('invalid-signup-data');
-              messageElement.innerHTML = 'Password must contain one uppercase, one lowercase,<br> one special character and one digit!';
-              messageElement.style.transition = 'opacity 0.5s';
+//               setTimeout(function() {
+//                   messageElement.style.opacity = '0';
+//                   setTimeout(function() {
+//                       messageElement.innerHTML = '';
+//                   }, 500);
+//               }, 2000);
+//           });
+//       </script>";
+//   }
+// } else {
+//     // echo "Password must contain one uppercase, one lowercase, one special character and one digit";
+//     echo "<script type='text/javascript'> 
+//           document.addEventListener('DOMContentLoaded', function() {
+//               var messageElement = document.getElementById('invalid-signup-data');
+//               messageElement.innerHTML = 'Password must contain one uppercase, one lowercase,<br> one special character and one digit!';
+//               messageElement.style.transition = 'opacity 0.5s';
 
-              setTimeout(function() {
-                  messageElement.style.opacity = '0';
-                  setTimeout(function() {
-                      messageElement.innerHTML = '';
-                  }, 500);
-              }, 2000);
-          });
-      </script>";
-}
-} else {
-  // echo "Please enter a valid email address";
-  echo "<script type='text/javascript'> 
-          document.addEventListener('DOMContentLoaded', function() {
-              var messageElement = document.getElementById('invalid-signup-data');
-              messageElement.innerHTML = 'Please enter a valid email address!';
-              messageElement.style.transition = 'opacity 0.5s';
+//               setTimeout(function() {
+//                   messageElement.style.opacity = '0';
+//                   setTimeout(function() {
+//                       messageElement.innerHTML = '';
+//                   }, 500);
+//               }, 2000);
+//           });
+//       </script>";
+// }
+// } else {
+//   // echo "Please enter a valid email address";
+//   echo "<script type='text/javascript'> 
+//           document.addEventListener('DOMContentLoaded', function() {
+//               var messageElement = document.getElementById('invalid-signup-data');
+//               messageElement.innerHTML = 'Please enter a valid email address!';
+//               messageElement.style.transition = 'opacity 0.5s';
 
-              setTimeout(function() {
-                  messageElement.style.opacity = '0';
-                  setTimeout(function() {
-                      messageElement.innerHTML = '';
-                  }, 500);
-              }, 2000);
-          });
-      </script>";
-}
-
+//               setTimeout(function() {
+//                   messageElement.style.opacity = '0';
+//                   setTimeout(function() {
+//                       messageElement.innerHTML = '';
+//                   }, 500);
+//               }, 2000);
+//           });
+//       </script>";
+// }
 
 
 
