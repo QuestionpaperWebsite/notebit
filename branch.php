@@ -177,7 +177,7 @@
                             <th>Sno</th>
                             <th>Name</th>
                             <th>Mail</th>
-                            <th>Pass</th>
+                            <th>Password</th>
                         </tr>
                         <?php
                         if($total!=0)
@@ -187,7 +187,7 @@
                             echo "
                             <tr>
                             <td>".$print['no']."</td>
-                            <td>".$print['fname']."</td>
+                            <td>".$print['fname']." ".$print['lname']."</td>
                             <td>".$print['mail']."</td>
                             <td>".$print['pass']."</td>
                             </tr>
@@ -224,14 +224,14 @@
                         </div>
                         <div class="searchbox">
                             <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
-                            <input type="text" id="search" name="search" class="search" placeholder="Search" onfocus="this.placeholder=''" 
+                            <input type="text" id="csesearch" onkeyup="csesearch()" name="search" class="search" placeholder="Search" onfocus="this.placeholder=''" 
                             onblur="this.placeholder='Search'">
                         </div>
                     </div>
                     <div class="childboxquestionpaper sem_view1" id="sem1">
-                        <table>
+                        <table id="csetable1">
                             <tr>
-                              <td>DataBase Management System 1</td>
+                              <td>os</td>
                               <td>Mid Semester</td>
                               <td>Download</td>
                             </tr>
@@ -248,7 +248,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper sem_view2" id="sem2">
-                        <table>
+                        <table id="csetable2">
                             <tr>
                               <td>DataBase Management System 2</td>
                               <td>Mid Semester</td>
@@ -267,7 +267,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper sem_view3" id="sem3">
-                        <table>
+                        <table id="csetable3">
                             <tr>
                               <td>DataBase Management System 3</td>
                               <td>Mid Semester</td>
@@ -286,7 +286,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper sem_view4" id="sem4">
-                        <table>
+                        <table id="csetable4">
                             <tr>
                               <td>DataBase Management System 4</td>
                               <td>Mid Semester</td>
@@ -305,7 +305,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper sem_view5" id="sem5">
-                        <table>
+                        <table id="csetable5">
                             <tr>
                               <td>DataBase Management System 5</td>
                               <td>Mid Semester</td>
@@ -324,7 +324,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper sem_view6" id="sem6">
-                        <table>
+                        <table id="csetable6">
                             <tr>
                               <td>DataBase Management System 6</td>
                               <td>Mid Semester</td>
@@ -343,7 +343,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper sem_view7" id="sem7">
-                        <table>
+                        <table id="csetable7">
                             <tr>
                               <td>DataBase Management System 7</td>
                               <td>Mid Semester</td>
@@ -362,9 +362,9 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper sem_view8" id="sem8">
-                        <table>
+                        <table id="csetable8">
                             <tr>
-                              <td>DataBase Management System 8</td>
+                              <td>NM</td>
                               <td>Mid Semester</td>
                               <td>Download</td>
                             </tr>
@@ -403,12 +403,12 @@
                         </div>
                         <div class="searchbox">
                             <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
-                            <input type="text" id="search" name="search" class="search" placeholder="Search" onfocus="this.placeholder=''" 
+                            <input type="text" id="itsearch" onkeyup="itsearch()" name="search" class="search" placeholder="Search" onfocus="this.placeholder=''" 
                             onblur="this.placeholder='Search'">
                         </div>
                     </div>
                     <div class="childboxquestionpaper" id="it_sem1">
-                        <table>
+                        <table id="ittable1">
                             <tr>
                               <td>DataBase Management System 1</td>
                               <td>Mid Semester</td>
@@ -427,7 +427,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="it_sem2">
-                        <table>
+                        <table id="ittable2">
                             <tr>
                               <td>DataBase Management System 2</td>
                               <td>Mid Semester</td>
@@ -446,7 +446,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="it_sem3">
-                        <table>
+                        <table id="ittable3">
                             <tr>
                               <td>DataBase Management System 3</td>
                               <td>Mid Semester</td>
@@ -465,7 +465,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="it_sem4">
-                        <table>
+                        <table id="ittable4">
                             <tr>
                               <td>DataBase Management System 4</td>
                               <td>Mid Semester</td>
@@ -484,7 +484,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="it_sem5">
-                        <table>
+                        <table id="ittable5">
                             <tr>
                               <td>DataBase Management System 5</td>
                               <td>Mid Semester</td>
@@ -503,7 +503,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="it_sem6">
-                        <table>
+                        <table id="ittable6">
                             <tr>
                               <td>DataBase Management System 6</td>
                               <td>Mid Semester</td>
@@ -522,7 +522,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="it_sem7">
-                        <table>
+                        <table id="ittable7">
                             <tr>
                               <td>DataBase Management System 7</td>
                               <td>Mid Semester</td>
@@ -541,7 +541,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="it_sem8">
-                        <table>
+                        <table id="ittable8">
                             <tr>
                               <td>DataBase Management System 8</td>
                               <td>Mid Semester</td>
@@ -553,7 +553,7 @@
                               <td>Download</td>
                             </tr>
                             <tr>
-                              <td>DataBase Management System 8</td>
+                              <td>Image processing</td>
                               <td>Mid Semester</td>
                               <td>Download</td>
                             </tr>
@@ -581,12 +581,12 @@
                         </div>
                         <div class="searchbox">
                             <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
-                            <input type="text" id="search" name="search" class="search" placeholder="Search" onfocus="this.placeholder=''" 
+                            <input type="text" id="ecesearch" onkeyup="ecesearch()" name="search" class="search" placeholder="Search" onfocus="this.placeholder=''" 
                             onblur="this.placeholder='Search'">
                         </div>
                     </div>
                     <div class="childboxquestionpaper" id="ece_sem1">
-                        <table>
+                        <table id="ecetable1">
                             <tr>
                               <td>DataBase Management System 1</td>
                               <td>Mid Semester</td>
@@ -605,7 +605,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="ece_sem2">
-                        <table>
+                        <table id="ecetable2">
                             <tr>
                               <td>DataBase Management System 2</td>
                               <td>Mid Semester</td>
@@ -624,7 +624,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="ece_sem3">
-                        <table>
+                        <table id="ecetable3">
                             <tr>
                               <td>DataBase Management System 3</td>
                               <td>Mid Semester</td>
@@ -643,7 +643,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="ece_sem4">
-                        <table>
+                        <table id="ecetable4">
                             <tr>
                               <td>DataBase Management System 4</td>
                               <td>Mid Semester</td>
@@ -662,7 +662,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="ece_sem5">
-                        <table>
+                        <table id="ecetable5">
                             <tr>
                               <td>DataBase Management System 5</td>
                               <td>Mid Semester</td>
@@ -681,7 +681,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="ece_sem6">
-                        <table>
+                        <table id="ecetable6">
                             <tr>
                               <td>DataBase Management System 6</td>
                               <td>Mid Semester</td>
@@ -700,7 +700,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="ece_sem7">
-                        <table>
+                        <table id="ecetable7">
                             <tr>
                               <td>DataBase Management System 7</td>
                               <td>Mid Semester</td>
@@ -719,7 +719,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="ece_sem8">
-                        <table>
+                        <table id="ecetable8">
                             <tr>
                               <td>DataBase Management System 8</td>
                               <td>Mid Semester</td>
@@ -731,7 +731,7 @@
                               <td>Download</td>
                             </tr>
                             <tr>
-                              <td>DataBase Management System 8</td>
+                              <td>Network theroy</td>
                               <td>Mid Semester</td>
                               <td>Download</td>
                             </tr>
@@ -760,12 +760,12 @@
                         </div>
                         <div class="searchbox">
                             <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
-                            <input type="text" id="search" name="search" class="search" placeholder="Search" onfocus="this.placeholder=''" 
+                            <input type="text" id="eeesearch" onkeyup="eeesearch()" name="search" class="search" placeholder="Search" onfocus="this.placeholder=''" 
                             onblur="this.placeholder='Search'">
                         </div>
                     </div>
                     <div class="childboxquestionpaper" id="eee_sem1">
-                        <table>
+                        <table id="eeetable1">
                             <tr>
                               <td>DataBase Management System 1</td>
                               <td>Mid Semester</td>
@@ -784,7 +784,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="eee_sem2">
-                        <table>
+                        <table id="eeetable2">
                             <tr>
                               <td>DataBase Management System 2</td>
                               <td>Mid Semester</td>
@@ -803,7 +803,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="eee_sem3">
-                        <table>
+                        <table id="eeetable3">
                             <tr>
                               <td>DataBase Management System 3</td>
                               <td>Mid Semester</td>
@@ -822,7 +822,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="eee_sem4">
-                        <table>
+                        <table id="eeetable4">
                             <tr>
                               <td>DataBase Management System 4</td>
                               <td>Mid Semester</td>
@@ -841,7 +841,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="eee_sem5">
-                        <table>
+                        <table id="eeetable5">
                             <tr>
                               <td>DataBase Management System 5</td>
                               <td>Mid Semester</td>
@@ -860,7 +860,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="eee_sem6">
-                        <table>
+                        <table id="eeetable6">
                             <tr>
                               <td>DataBase Management System 6</td>
                               <td>Mid Semester</td>
@@ -879,7 +879,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="eee_sem7">
-                        <table>
+                        <table id="eeetable7">
                             <tr>
                               <td>DataBase Management System 7</td>
                               <td>Mid Semester</td>
@@ -898,7 +898,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="eee_sem8">
-                        <table>
+                        <table id="eeetable8">
                             <tr>
                               <td>DataBase Management System 8</td>
                               <td>Mid Semester</td>
@@ -910,7 +910,7 @@
                               <td>Download</td>
                             </tr>
                             <tr>
-                              <td>DataBase Management System 8</td>
+                              <td>network theroy</td>
                               <td>Mid Semester</td>
                               <td>Download</td>
                             </tr>
@@ -938,12 +938,12 @@
                         </div>
                         <div class="searchbox">
                             <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
-                            <input type="text" id="search" name="search" class="search" placeholder="Search" onfocus="this.placeholder=''" 
+                            <input type="text" id="mesearch" onkeyup="mesearch()" name="search" class="search" placeholder="Search" onfocus="this.placeholder=''" 
                             onblur="this.placeholder='Search'">
                         </div>
                     </div>
                     <div class="childboxquestionpaper" id="me_sem1">
-                        <table>
+                        <table  id="metable1">
                             <tr>
                               <td>DataBase Management System 1</td>
                               <td>Mid Semester</td>
@@ -962,7 +962,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="me_sem2">
-                        <table>
+                        <table  id="metable2">
                             <tr>
                               <td>DataBase Management System 2</td>
                               <td>Mid Semester</td>
@@ -981,7 +981,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="me_sem3">
-                        <table>
+                        <table  id="metable3">
                             <tr>
                               <td>DataBase Management System 3</td>
                               <td>Mid Semester</td>
@@ -1000,7 +1000,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="me_sem4">
-                        <table>
+                        <table  id="metable4">
                             <tr>
                               <td>DataBase Management System 4</td>
                               <td>Mid Semester</td>
@@ -1019,7 +1019,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="me_sem5">
-                        <table>
+                        <table  id="metable5">
                             <tr>
                               <td>DataBase Management System 5</td>
                               <td>Mid Semester</td>
@@ -1038,7 +1038,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="me_sem6">
-                        <table>
+                        <table  id="metable6">
                             <tr>
                               <td>DataBase Management System 6</td>
                               <td>Mid Semester</td>
@@ -1057,7 +1057,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="me_sem7">
-                        <table>
+                        <table  id="metable7">
                             <tr>
                               <td>DataBase Management System 7</td>
                               <td>Mid Semester</td>
@@ -1076,9 +1076,9 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="me_sem8">
-                        <table>
+                        <table  id="metable8">
                             <tr>
-                              <td>DataBase Management System 8</td>
+                              <td>engine</td>
                               <td>Mid Semester</td>
                               <td>Download</td>
                             </tr>
@@ -1116,12 +1116,12 @@
                         </div>
                         <div class="searchbox">
                             <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
-                            <input type="text" id="search" name="search" class="search" placeholder="Search" onfocus="this.placeholder=''" 
+                            <input type="text" id="cesearch" onkeyup="cesearch()" name="search" class="search" placeholder="Search" onfocus="this.placeholder=''" 
                             onblur="this.placeholder='Search'">
                         </div>
                     </div>
                     <div class="childboxquestionpaper" id="ce_sem1">
-                        <table>
+                        <table id="cetable1">
                             <tr>
                               <td>DataBase Management System 1</td>
                               <td>Mid Semester</td>
@@ -1140,7 +1140,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="ce_sem2">
-                        <table>
+                        <table id="cetable2">
                             <tr>
                               <td>DataBase Management System 2</td>
                               <td>Mid Semester</td>
@@ -1159,7 +1159,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="ce_sem3">
-                        <table>
+                        <table id="cetable3">
                             <tr>
                               <td>DataBase Management System 3</td>
                               <td>Mid Semester</td>
@@ -1178,7 +1178,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="ce_sem4">
-                        <table>
+                        <table id="cetable4">
                             <tr>
                               <td>DataBase Management System 4</td>
                               <td>Mid Semester</td>
@@ -1197,7 +1197,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="ce_sem5">
-                        <table>
+                        <table id="cetable5">
                             <tr>
                               <td>DataBase Management System 5</td>
                               <td>Mid Semester</td>
@@ -1216,7 +1216,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="ce_sem6">
-                        <table>
+                        <table id="cetable6">
                             <tr>
                               <td>DataBase Management System 6</td>
                               <td>Mid Semester</td>
@@ -1235,7 +1235,7 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="ce_sem7">
-                        <table>
+                        <table id="cetable7">
                             <tr>
                               <td>DataBase Management System 7</td>
                               <td>Mid Semester</td>
@@ -1254,9 +1254,9 @@
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="ce_sem8">
-                        <table>
+                        <table id="cetable8">
                             <tr>
-                              <td>DataBase Management System 8</td>
+                              <td>cement course</td>
                               <td>Mid Semester</td>
                               <td>Download</td>
                             </tr>

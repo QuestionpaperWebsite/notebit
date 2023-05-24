@@ -526,6 +526,7 @@ background-color: #374661;
         height: 30%;
         margin: 0;
         margin-left: 2%;
+        margin-bottom: 2%;
     }
 
     .box2 h2 {

@@ -742,4 +742,889 @@ function hidemenu(){
     navcontent.style.display="none";
     
 }
+
+
+//--------------------------------------------------- CSE SEARCH SCRIPT ----------------------------------------------------
+function csesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("csesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("csetable1");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function csesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("csesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("csetable2");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function csesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("csesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("csetable3");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function csesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("csesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("csetable4");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function csesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("csesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("csetable5");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function csesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("csesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("csetable6");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function csesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("csesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("csetable7");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function csesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("csesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("csetable8");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//--------------------------------------------------- IT SEARCH SCRIPT ----------------------------------------------------
+function itsearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("itsearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("ittable1");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function itsearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("itsearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("ittable2");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function itsearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("itsearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("ittable3");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function itsearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("itsearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("ittable4");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function itsearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("itsearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("ittable5");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function itsearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("itsearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("ittable6");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function itsearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("itsearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("ittable7");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function itsearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("itsearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("ittable8");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------- ECE SEARCH SCRIPT ----------------------------------------------------
+function ecesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("ecesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("ecetable1");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function ecesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("ecesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("ecetable2");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function ecesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("ecesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("ecetable3");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function ecesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("ecesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("ecetable4");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function ecesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("ecesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("ecetable5");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function ecesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("ecesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("ecetable6");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function ecesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("ecesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("ecetable7");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function ecesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("ecesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("ecetable8");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------- EEE SEARCH SCRIPT ----------------------------------------------------
+function eeesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("eeesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("eeetable1");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function eeesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("eeesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("eeetable2");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function eeesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("eeesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("eeetable3");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function eeesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("eeesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("eeetable4");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function eeesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("eeesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("eeetable5");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function eeesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("eeesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("eeetable6");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function eeesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("eeesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("eeetable7");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function eeesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("eeesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("eeetable8");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------- ME SEARCH SCRIPT ----------------------------------------------------
+function mesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("mesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("metable1");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function mesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("mesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("metable2");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function mesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("mesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("metable3");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function mesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("mesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("metable4");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function mesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("mesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("metable5");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function mesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("mesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("metable6");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function mesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("mesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("metable7");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function mesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("mesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("metable8");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------- CE SEARCH SCRIPT ----------------------------------------------------
+function cesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("cesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("cetable1");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function cesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("cesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("cetable2");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function csesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("cesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("cetable3");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function cesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("cesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("cetable4");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function csesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("cesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("cetable5");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function cesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("cesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("cetable6");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function csesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("cesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("cetable7");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+function cesearch() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("cesearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("cetable8");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
 </script>
