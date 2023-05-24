@@ -117,6 +117,13 @@ input {
     text-decoration: none;
 }
 
+#valid-signup-data {
+    font-size: 0.8rem;
+    color: green;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
 .signin {
     background-color: #6D41DA;
     margin-left: 20px;

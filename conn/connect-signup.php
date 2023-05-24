@@ -88,7 +88,18 @@ if ($_SERVER['REQUEST_METHOD']=='POST'){
             
                 if($result){
                   //echo "Record inserted sucessfully";
-                  echo "<script type='text/javascript'>if (window.confirm('Account has been created. Click OK to redirect the Signin Page.')){window.open('index.php', '_blank');};</script>";
+                //   echo "<script type='text/javascript'>if (window.confirm('Account has been created. Click OK to redirect the Signin Page.')){window.open('index.php', '_blank');};</script>";
+                    echo "<script type='text/javascript'> 
+                    document.addEventListener('DOMContentLoaded', function() {
+                    var messageElement = document.getElementById('valid-signup-data');
+                    messageElement.innerHTML = 'Account created successfully! <br> Redirecting to the signin page';
+                    messageElement.style.transition = 'opacity 0.5s';
+      
+                    setTimeout(function() {
+                        window.location.href = 'index.php';
+                    }, 2000);
+                    });
+                </script>";
                 }
             } else {
                 // echo "Please enter same password in both fields";
