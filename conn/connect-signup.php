@@ -1,4 +1,6 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 0);
 include 'conn\connection.php';
 if ($_SERVER['REQUEST_METHOD']=='POST'){
   $fname = $_POST['fname'];

@@ -1517,7 +1517,7 @@ function cesearch() {
     }       
   }
 }
-function csesearch() {
+function cesearch() {
   var input, filter, table, tr, td, i, txtValue;
   input = document.getElementById("cesearch");
   filter = input.value.toUpperCase();
@@ -1553,7 +1553,7 @@ function cesearch() {
     }       
   }
 }
-function csesearch() {
+function cesearch() {
   var input, filter, table, tr, td, i, txtValue;
   input = document.getElementById("cesearch");
   filter = input.value.toUpperCase();
@@ -1589,7 +1589,7 @@ function cesearch() {
     }       
   }
 }
-function csesearch() {
+function cesearch() {
   var input, filter, table, tr, td, i, txtValue;
   input = document.getElementById("cesearch");
   filter = input.value.toUpperCase();

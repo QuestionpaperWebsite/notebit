@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
          $_SESSION['pass'] = $show['pass'];
         // header("Location: branch.php");
     } else {
-        echo "<h1>Enter a valid email</h1>";
+        // echo "Enter a valid email";
     }
 
     $sql = "SELECT pass FROM `notebitdata` WHERE mail = '$mail'";
