@@ -523,7 +523,7 @@ background-color: #374661;
     .box2 {
         display: block;
         width: 95%;  
-        height: 30%;
+        height: auto;
         margin: 0;
         margin-left: 2%;
         margin-bottom: 2%;
