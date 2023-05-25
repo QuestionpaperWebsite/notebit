@@ -27,6 +27,11 @@ function showPage(){
   window.history.pushState(null,null,"questionpaper.html");  //changing url of the page using .pushState() function without refreshing
 }
 
+function showChangePasswordForm() {
+      document.getElementById("changePasswordForm").style.display = "block";
+      document.getElementById("change-password-button").style.display = "none";
+}
+
 // function showPage(){
 //   window.location.href="questionpaper.html";
 // }

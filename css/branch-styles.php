@@ -607,4 +607,67 @@ background-color: #374661;
     }
 }
 
+/* added styles for change password form */
+input {
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    background: none;
+    border: solid white 1.5px;
+    margin-top: 10px;
+    color: white;
+    padding: 0 40px;
+}
+
+.icon {
+    position: relative;
+    left: 30px;
+}
+
+.change-password input:focus~i{
+    transform: translateX(20px);
+}
+
+.confirm-change-password {
+    background-color: #6D41DA;
+    margin-left: 20px;
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1.5px solid #6D41DA;
+    color: white;
+    font-weight: bold;
+}
+.confirm-change-password:hover{
+    background-color: #ae8eff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#change-password-button {
+    background-color: #6D41DA;
+    margin-left: 20px;
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1.5px solid #6D41DA;
+    color: white;
+    font-weight: bold;
+}
+
+#change-password-button:hover {
+    background-color: #ae8eff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#valid-password-change-message {
+    font-size: 0.8rem;
+    color: green;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
 </style>

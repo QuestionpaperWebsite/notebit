@@ -14,6 +14,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Branch</title>
 </head>
 <body>
@@ -125,6 +126,30 @@
                     <!-- <div class="bttn"></div>
                     <button> Connect to Discord</button>
                     </div> -->
+
+                    <!-- change password html starts here -->
+                    <button id="change-password-button" onclick="showChangePasswordForm() ">Change Password</button>
+                    
+                    <div id="changePasswordForm" style="display: none;">
+                      <form action="branch.php" method="POST">
+                        <div class="change-password">
+                          <i class="fa-solid fa-lock icon"></i>
+                          <input type="text" class="form-element" name="currentpass" placeholder="Current Password" id="" required> <br>
+                        </div>
+
+                        <div class="change-password">
+                          <i class="fa-solid fa-lock icon"></i>
+                          <input type="text" class="form-element" name="newpass" placeholder="New Password" id="" required> <br>
+                        </div>
+
+                        <div class="change-password">
+                          <i class="fa-solid fa-lock icon"></i>
+                          <input type="text" class="form-element" name="confirmpass" placeholder="Confirm New Password" id="" required> <br>
+                        </div>
+                        <p id="valid-password-change-message"></p>
+                        <button type="submit" class="confirm-change-password">Change</button> 
+                      </form>
+                    </div>
                 </div>
                </div>
             </div>
@@ -1280,7 +1305,8 @@
     </section>
     
     <?php
-        include 'js\branch-js.php'
+        include 'js\branch-js.php';
+        include 'js\main.php';
     ?>
 
 </body>
