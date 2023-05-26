@@ -146,7 +146,6 @@
                           <i class="fa-solid fa-lock icon"></i>
                           <input type="text" class="form-element" name="confirmpass" placeholder="Confirm New Password" id="" required> <br>
                         </div>
-                        <p id="valid-password-change-message"></p>
                         <button type="submit" class="confirm-change-password">Change</button> 
                       </form>
                     </div>

@@ -253,4 +253,22 @@ input {
   }
 }
 
+/* email sending messages */
+
+#email-sent-message {
+    font-size: 0.8rem;
+    color: green;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+#email-notsent-message {
+    font-size: 0.8rem;
+    color: red;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
 </style>

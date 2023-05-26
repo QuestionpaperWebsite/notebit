@@ -113,14 +113,14 @@ input {
 #invalid-signup-data {
     font-size: 0.8rem;
     color: red;
-    margin-left: 30px;
+    margin-left: 20px;
     text-decoration: none;
 }
 
 #valid-signup-data {
     font-size: 0.8rem;
     color: green;
-    margin-left: 30px;
+    margin-left: 20px;
     text-decoration: none;
 }
 

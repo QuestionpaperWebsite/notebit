@@ -61,9 +61,11 @@
                     <i class="fa-solid fa-envelope icon"></i>
                     <input type="text" class="form-element" name="mail" placeholder="Email Address" id="" required> <br>
                 </div>
+                <p id="email-sent-message"></p>
+                <p id="email-notsent-message"></p>
                 <button type="submit" class="signin">Send password</button> 
             </form>
-            <?php echo($_SESSION['pass']);?>
+            
             <p class="noacc">Go back to the sign in page <a href="index.php" class="signup-link">Click Here</a> </p>
         </div>
         
