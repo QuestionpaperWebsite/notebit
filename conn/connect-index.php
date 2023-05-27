@@ -23,6 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
          $_SESSION['Name'] = $show['fname'] ." ". $show['lname'];
          $_SESSION['mail'] = $mail;
          $_SESSION['pass'] = $password;
+         $_SESSION['authenticated'] =true;
         header("Location: branch.php");
     } else {
     // echo "<script type='text/javascript'> 

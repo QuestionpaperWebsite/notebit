@@ -49,7 +49,7 @@
                       }
                       ?>
                       <li ><a href="#" onclick="about()" class="aboutcolor">ABOUT</a></li>
-                      <li ><a href="index.php" class="logoutcolor">LOGOUT</a></li>
+                      <li ><a href="logout.php" class="logoutcolor">LOGOUT</a></li>
                     </ul>
                 </div>
               </div>

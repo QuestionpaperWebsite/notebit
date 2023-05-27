@@ -8,6 +8,10 @@ $data = mysqli_query($conn,$queries);
 $total = mysqli_num_rows($data);
 $_SESSION['totaluser'] = $total;
 
+if (!isset($_SESSION['authenticated']) || !$_SESSION['authenticated']) {
+    header("Location: index.php");
+    exit();
+}
 
 function validatePassword($pass) {
     // Check for at least one capital letter
@@ -64,7 +68,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // $changePassQuery = "UPDATE `notebitdata` SET pass = '$newpass', cpass = '$confirmpass'  WHERE mail = '$mailid'";
     // $changePassResult = mysqli_query($conn, $changePassQuery);
 
-    
 
-    }
+    
+}
 ?>
