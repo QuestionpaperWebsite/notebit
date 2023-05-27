@@ -28,7 +28,7 @@
         <nav>
             <div class="navbox">
                 <div class="uppercontent">
-                    <img src="images\notebit-new-logo.png" class="logo">
+                    <a href="branch.php" ><img src="images\notebit-new-logo.png" class="logo"></a>
                     <div class="nametext">
                     <?php echo("Welcome ".$_SESSION['Name']);?>
                     </div>
@@ -254,154 +254,42 @@
                     </div>
                     <div class="childboxquestionpaper sem_view1" id="sem1">
                         <table id="csetable1">
-                            <tr>
-                              <td>os</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 1</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 1</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                           
                           </table>
                     </div>
                     <div class="childboxquestionpaper sem_view2" id="sem2">
                         <table id="csetable2">
-                            <tr>
-                              <td>DataBase Management System 2</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 2</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 2</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                           
                           </table>
                     </div>
                     <div class="childboxquestionpaper sem_view3" id="sem3">
                         <table id="csetable3">
-                            <tr>
-                              <td>DataBase Management System 3</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 3</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 3</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                           
                           </table>
                     </div>
                     <div class="childboxquestionpaper sem_view4" id="sem4">
                         <table id="csetable4">
-                            <tr>
-                              <td>DataBase Management System 4</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 4</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 4</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                            
                           </table>
                     </div>
                     <div class="childboxquestionpaper sem_view5" id="sem5">
                         <table id="csetable5">
-                            <tr>
-                              <td>DataBase Management System 5</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 5</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 5</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                            
                           </table>
                     </div>
                     <div class="childboxquestionpaper sem_view6" id="sem6">
                         <table id="csetable6">
-                            <tr>
-                              <td>DataBase Management System 6</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 6</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 6</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                           
                           </table>
                     </div>
                     <div class="childboxquestionpaper sem_view7" id="sem7">
                         <table id="csetable7">
-                            <tr>
-                              <td>DataBase Management System 7</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 7</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 7</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                            
                           </table>
                     </div>
                     <div class="childboxquestionpaper sem_view8" id="sem8">
                         <table id="csetable8">
-                            <tr>
-                              <td>NM</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 8</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 8</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                            
                           </table>
                     </div>
                 </div>
@@ -433,154 +321,42 @@
                     </div>
                     <div class="childboxquestionpaper" id="it_sem1">
                         <table id="ittable1">
-                            <tr>
-                              <td>DataBase Management System 1</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 1</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 1</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                           
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="it_sem2">
                         <table id="ittable2">
-                            <tr>
-                              <td>DataBase Management System 2</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 2</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 2</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                           
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="it_sem3">
                         <table id="ittable3">
-                            <tr>
-                              <td>DataBase Management System 3</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 3</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 3</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                           
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="it_sem4">
                         <table id="ittable4">
-                            <tr>
-                              <td>DataBase Management System 4</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 4</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 4</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                            
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="it_sem5">
                         <table id="ittable5">
-                            <tr>
-                              <td>DataBase Management System 5</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 5</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 5</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                            
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="it_sem6">
                         <table id="ittable6">
-                            <tr>
-                              <td>DataBase Management System 6</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 6</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 6</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                           
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="it_sem7">
                         <table id="ittable7">
-                            <tr>
-                              <td>DataBase Management System 7</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 7</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 7</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                           
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="it_sem8">
                         <table id="ittable8">
-                            <tr>
-                              <td>DataBase Management System 8</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 8</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>Image processing</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                           
                           </table>
                     </div>
                 </div>
@@ -611,154 +387,42 @@
                     </div>
                     <div class="childboxquestionpaper" id="ece_sem1">
                         <table id="ecetable1">
-                            <tr>
-                              <td>DataBase Management System 1</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 1</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 1</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                           
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="ece_sem2">
                         <table id="ecetable2">
-                            <tr>
-                              <td>DataBase Management System 2</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 2</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 2</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                            
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="ece_sem3">
                         <table id="ecetable3">
-                            <tr>
-                              <td>DataBase Management System 3</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 3</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 3</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                           
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="ece_sem4">
                         <table id="ecetable4">
-                            <tr>
-                              <td>DataBase Management System 4</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 4</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 4</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                            
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="ece_sem5">
                         <table id="ecetable5">
-                            <tr>
-                              <td>DataBase Management System 5</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 5</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 5</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                           
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="ece_sem6">
                         <table id="ecetable6">
-                            <tr>
-                              <td>DataBase Management System 6</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 6</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 6</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                           
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="ece_sem7">
                         <table id="ecetable7">
-                            <tr>
-                              <td>DataBase Management System 7</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 7</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 7</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                           
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="ece_sem8">
                         <table id="ecetable8">
-                            <tr>
-                              <td>DataBase Management System 8</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 8</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>Network theroy</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                           
                           </table>
                     </div>
                 </div>
@@ -790,154 +454,42 @@
                     </div>
                     <div class="childboxquestionpaper" id="eee_sem1">
                         <table id="eeetable1">
-                            <tr>
-                              <td>DataBase Management System 1</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 1</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 1</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                            
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="eee_sem2">
                         <table id="eeetable2">
-                            <tr>
-                              <td>DataBase Management System 2</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 2</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 2</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                            
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="eee_sem3">
                         <table id="eeetable3">
-                            <tr>
-                              <td>DataBase Management System 3</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 3</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 3</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                            
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="eee_sem4">
                         <table id="eeetable4">
-                            <tr>
-                              <td>DataBase Management System 4</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 4</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 4</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                            
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="eee_sem5">
                         <table id="eeetable5">
-                            <tr>
-                              <td>DataBase Management System 5</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 5</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 5</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                            
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="eee_sem6">
                         <table id="eeetable6">
-                            <tr>
-                              <td>DataBase Management System 6</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 6</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 6</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                           
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="eee_sem7">
                         <table id="eeetable7">
-                            <tr>
-                              <td>DataBase Management System 7</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 7</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 7</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                            
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="eee_sem8">
                         <table id="eeetable8">
-                            <tr>
-                              <td>DataBase Management System 8</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 8</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>network theroy</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                            
                           </table>
                     </div>
                 </div>
@@ -968,154 +520,42 @@
                     </div>
                     <div class="childboxquestionpaper" id="me_sem1">
                         <table  id="metable1">
-                            <tr>
-                              <td>DataBase Management System 1</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 1</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 1</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                            
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="me_sem2">
                         <table  id="metable2">
-                            <tr>
-                              <td>DataBase Management System 2</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 2</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 2</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                           
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="me_sem3">
                         <table  id="metable3">
-                            <tr>
-                              <td>DataBase Management System 3</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 3</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 3</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                            
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="me_sem4">
                         <table  id="metable4">
-                            <tr>
-                              <td>DataBase Management System 4</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 4</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 4</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                            
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="me_sem5">
                         <table  id="metable5">
-                            <tr>
-                              <td>DataBase Management System 5</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 5</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 5</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                            
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="me_sem6">
                         <table  id="metable6">
-                            <tr>
-                              <td>DataBase Management System 6</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 6</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 6</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                            
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="me_sem7">
                         <table  id="metable7">
-                            <tr>
-                              <td>DataBase Management System 7</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 7</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 7</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                           
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="me_sem8">
                         <table  id="metable8">
-                            <tr>
-                              <td>engine</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 8</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 8</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                           
                           </table>
                     </div>
                 </div> 
@@ -1146,154 +586,42 @@
                     </div>
                     <div class="childboxquestionpaper" id="ce_sem1">
                         <table id="cetable1">
-                            <tr>
-                              <td>DataBase Management System 1</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 1</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 1</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                           
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="ce_sem2">
                         <table id="cetable2">
-                            <tr>
-                              <td>DataBase Management System 2</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 2</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 2</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                            
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="ce_sem3">
                         <table id="cetable3">
-                            <tr>
-                              <td>DataBase Management System 3</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 3</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 3</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                           
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="ce_sem4">
                         <table id="cetable4">
-                            <tr>
-                              <td>DataBase Management System 4</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 4</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 4</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                           
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="ce_sem5">
                         <table id="cetable5">
-                            <tr>
-                              <td>DataBase Management System 5</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 5</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 5</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                           
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="ce_sem6">
                         <table id="cetable6">
-                            <tr>
-                              <td>DataBase Management System 6</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 6</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 6</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                           
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="ce_sem7">
                         <table id="cetable7">
-                            <tr>
-                              <td>DataBase Management System 7</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 7</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 7</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                            
                           </table>
                     </div>
                     <div class="childboxquestionpaper" id="ce_sem8">
                         <table id="cetable8">
-                            <tr>
-                              <td>cement course</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 8</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
-                            <tr>
-                              <td>DataBase Management System 8</td>
-                              <td>Mid Semester</td>
-                              <td>Download</td>
-                            </tr>
+                           
                           </table>
                     </div>
                 </div>
@@ -1307,6 +635,8 @@
         include 'js\branch-js.php';
         include 'js\main.php';
     ?>
+
+    <script src="js\map.js"></script>
 
 </body>
 </html>

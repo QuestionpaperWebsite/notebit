@@ -304,6 +304,7 @@ p{
     display: none;
 }
 .search{
+    display: none;
     width: 60%;
     height: 3vh;
     background-color: transparent;
@@ -317,6 +318,7 @@ p{
     color: rgb(255, 255, 255);
   }
 .fa-solid{
+    display:none;
     position: relative;
     left: px;
     top: 2px;
@@ -329,7 +331,7 @@ table {
     width: 100%;
 }
 td, th {
-    text-align: left;
+    text-align: center;
     padding: 8px;
     color: white;
   }
@@ -365,6 +367,12 @@ background-color: #374661;
 display: none;
 background-color: #374661;
 }
+
+td a{
+    color: white;
+}
+td a:link { text-decoration: none; }
+td a:hover { color : #003cff; transition: 0.5s}
 
 /* ----------------------------------------------------------------------------- ADMIN MENU -------------------------------------------------------------- */
 
