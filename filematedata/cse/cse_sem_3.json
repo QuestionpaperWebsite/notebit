@@ -1,21 +1,159 @@
 [
-    {
-        "Name":"CSE SEM 3",
-        "year":"2023",
-        "semester":"Mid Semester",
-        "Download":"Download",
-        "filesrc":"file/DAA_MID_SEM4_2023.pdf",
-        "filecode":"DAA_sem4_itcse"
-    },
-    {
-        "Name":"CSE SEM 3",
-        "year":"2023",
-        "semester":"Mid Semester",
-        "Download":"Download",
-        "filesrc":"file/DAA_MID_SEM4_2023.pdf",
-        "filecode":"DAA_sem4_itcse"
-    }
+
+
+        {
+            "Name":"Digital System Design",
+            "year":"2016",
+            "semester":"Mid Semester",
+            "filesrc":"document/cse/DSD_MID_2016.pdf",
+            "filecode":"DSD_mid_2016"
+        },
+        {
+            "Name":"Digital System Design",
+            "year":"2017",
+            "semester":"Mid Semester",
+            "filesrc":"document/cse/DSD_MID_2017.pdf",
+            "filecode":"DSD_mid_2017"
+        },
+        {
+            "Name":"Digital System Design",
+            "year":"2018",
+            "semester":"Mid Semester",
+            "filesrc":"document/cse/DSD_MID_2018.pdf",
+            "filecode":"DSD_mid_2018"
+        },
+        {
+            "Name":"Digital System Design",
+            "year":"2016",
+            "semester":"End Semester",
+            "filesrc":"document/cse/DSD_END_2016.pdf",
+            "filecode":"DSD_end_2016"
+        },
+        {
+            "Name":"Digital System Design",
+            "year":"2017",
+            "semester":"End Semester",
+            "filesrc":"document/cse/DSD_END_2017.pdf",
+            "filecode":"DSD_end_2017"
+        },
+        {
+            "Name":"Digital System Design",
+            "year":"2018",
+            "semester":"End Semester",
+            "filesrc":"document/cse/DSD_END_2018.pdf",
+            "filecode":"DSD_end_2018"
+        },
+        {
+            "Name":"Digital System Design",
+            "year":"2019",
+            "semester":"Short Semester",
+            "filesrc":"document/cse/DSD_SS_2019.pdf",
+            "filecode":"DSD_SS_2019"
+        },
+    
+    
+    
+    
+    
+    
+        {
+            "Name":"Object Oriented Programming Using Java",
+            "year":"2016",
+            "semester":"Mid Semester",
+            "filesrc":"document/cse/OOPDP_MID_2016.pdf",
+            "filecode":"OOPDP_mid_2016"
+        },
+        {
+            "Name":"Object Oriented Programming Using Java",
+            "year":"2017",
+            "semester":"Mid Semester",
+            "filesrc":"document/cse/OOPDP_MID_2017.pdf",
+            "filecode":"OOPDP_mid_2017"
+        },
+        {
+            "Name":"Object Oriented Programming Using Java",
+            "year":"2018",
+            "semester":"Mid Semester",
+            "filesrc":"document/cse/OOPDP_MID_2018.pdf",
+            "filecode":"OOPDP_mid_2018"
+        },
+        {
+            "Name":"Object Oriented Programming Using Java",
+            "year":"2016",
+            "semester":"End Semester",
+            "filesrc":"document/cse/OOPDP_END_2016.pdf",
+            "filecode":"OOPDP_end_2016"
+        },
+        {
+            "Name":"Object Oriented Programming Using Java",
+            "year":"2017",
+            "semester":"End Semester",
+            "filesrc":"document/cse/OOPDP_END_2017.pdf",
+            "filecode":"OOPDP_end_2017"
+        },
+        {
+            "Name":"Object Oriented Programming Using Java",
+            "year":"2018",
+            "semester":"End Semester",
+            "filesrc":"document/cse/OOPDP_END_2018.pdf",
+            "filecode":"OOPDP_end_2018"
+        },
+        
+    
+    
+    
+    
+    
+        {
+            "Name":"Discrete Mathematics",
+            "year":"2016",
+            "semester":"Mid Semester",
+            "filesrc":"document/cse/DMS_MID_2016.pdf",
+            "filecode":"DMS_mid_2016"
+        },
+        {
+            "Name":"Discrete Mathematics",
+            "year":"2017",
+            "semester":"Mid Semester",
+            "filesrc":"document/cse/DMS_MID_2017.pdf",
+            "filecode":"DMS_mid_2017"
+        },
+        
+        {
+            "Name":"Discrete Mathematics",
+            "year":"2018",
+            "semester":"Mid Semester",
+            "filesrc":"document/cse/DMS_MID_2018.pdf",
+            "filecode":"DMS_mid_2018"
+        },
+        
+        {
+            "Name":"Discrete Mathematics",
+            "year":"2016",
+            "semester":"End Semester",
+            "filesrc":"document/cse/DMS_END_2016.pdf",    
+            "filecode":"DMS_end_2016"
+        },
+        {
+            "Name":"Discrete Mathematics",
+            "year":"2017",
+            "semester":"End Semester",
+            "filesrc":"document/cse/DMS_END_2017.pdf",    
+            "filecode":"DMS_end_2017"
+        },
+        {
+            "Name":"Discrete Mathematics",
+            "year":"2018",
+            "semester":"End Semester",
+            "filesrc":"document/cse/DMS_END_2018.pdf",    
+            "filecode":"DMS_end_2018"
+        }
+    
+    
+    
+    
+    
+ ]
 
 
 
-]
