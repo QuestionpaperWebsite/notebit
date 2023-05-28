@@ -13,10 +13,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     
     if ((mysqli_num_rows($result)) > 0) {
         $password = $show['pass'];
+        $firstname = $show['fname'];
+        $lastname = $show['lname'];
         $to_email = $_POST['mail'];
-        $subject = "your current password mail";
+        $subject = "Forgot Password Request";
         $body = $password;
-        $headers = "From: official.notebit@gmail.com";
+        $fromName = 'NoteBit Inc';
+        $fromEmail = 'official.notebit@gmail.com';
+        $headers = "From: $fromName <$fromEmail>";;
         if (mail($to_email, $subject, $body, $headers)) {
             // echo "Email successfully sent to $to_email...";
             echo "<script type='text/javascript'> 
