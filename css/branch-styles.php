@@ -628,6 +628,7 @@ input {
 }
 
 .icon {
+    display: inline;
     position: relative;
     left: 30px;
 }
