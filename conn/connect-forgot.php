@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $lastname = $show['lname'];
         $to_email = $_POST['mail'];
         $subject = "Forgot Password Request";
-        $body = $password;
+        $body = "Dear ".$firstname." " .$lastname. ", your password is :  ".$password;
         $fromName = 'NoteBit Inc';
         $fromEmail = 'official.notebit@gmail.com';
         $headers = "From: $fromName <$fromEmail>";;
