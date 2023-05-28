@@ -1,19 +1,109 @@
 [
+
+
     {
-        "Name":"ME SEM 2",
-        "year":"2023",
+        "Name":"Basics of Electronics and Communication",
+        "year":"2018",
         "semester":"Mid Semester",
-        "Download":"Download",
-        "filesrc":"file/DAA_MID_SEM4_2023.pdf",
-        "filecode":"DAA_sem4_itcse"
+        "filesrc":"document/cse/BECE_MID_2018.pdf",
+        "filecode":"BECE_mid_2018"
     },
     {
-        "Name":"ME SEM 2",
-        "year":"2023",
+        "Name":"Basics of Electronics and Communication",
+        "year":"2019",
+        "semester":"Mid Semester BL1",
+        "filesrc":"document/cse/BECE_MID_2019_BL1.pdf",
+        "filecode":"BECE_midbl1_2019"
+    },
+    {
+        "Name":"Basics of Electronics and Communication",
+        "year":"2019",
+        "semester":"Mid Semester BL2",
+        "filesrc":"document/cse/BECE_MID_2019_BL2.pdf",
+        "filecode":"BECE_midbl2_2019"
+    },
+
+
+
+
+
+
+
+    {
+        "Name":"Basics of Mechanical Engineering",
+        "year":"2019",
+        "semester":"Mid Semester BL1",
+        "filesrc":"document/cse/BME_MID_2019_BL.pdf",
+        "filecode":"BME_midbl1_2019"
+    },
+    {
+        "Name":"Basics of Mechanical Engineering",
+        "year":"2019",
+        "semester":"Mid Semester BL2",
+        "filesrc":"document/cse/BME_MID_2019_BL2.pdf",
+        "filecode":"BME_midbl1_2019"
+    },
+    {
+        "Name":"Basics of Mechanical Engineering",
+        "year":"2019",
+        "semester":"End Semester",
+        "filesrc":"document/cse/BME_END_2019.pdf",
+        "filecode":"BME_end_2019"
+    },
+
+
+
+
+
+
+
+    {
+        "Name":"Chemistry",
+        "year":"2018",
         "semester":"Mid Semester",
-        "Download":"Download",
-        "filesrc":"file/DAA_MID_SEM4_2023.pdf",
-        "filecode":"DAA_sem4_itcse"
+        "filesrc":"document/cse/CHEM_MID_2018.pdf",
+        "filecode":"CHEM_mid_2018"
+    },
+    {
+        "Name":"Chemistry",
+        "year":"2018",
+        "semester":"End Semester",
+        "filesrc":"document/cse/CHEM_END_2018.pdf",
+        "filecode":"CHEM_end_2018"
+    },
+    {
+        "Name":"Chemistry",
+        "year":"2019",
+        "semester":"Mid Semester",
+        "filesrc":"document/cse/CHEM_MID_2019.pdf",
+        "filecode":"CHEM_midbl1_2019"
+    },
+    {
+        "Name":"Chemistry",
+        "year":"2019",
+        "semester":"Mid Semester BL",
+        "filesrc":"document/cse/CHEM_MID_2019_BL.pdf",
+        "filecode":"CHEM_midbl_2019"
+    },
+    {
+        "Name":"Chemistry",
+        "year":"2019",
+        "semester":"End Semester",
+        "filesrc":"document/cse/CHEM_2019_END.pdf",
+        "filecode":"CHEM_end_2019"
+    },
+
+
+
+
+
+
+    {
+        "Name":"Mathematics II",
+        "year":"2022",
+        "semester":"End Semester",
+        "filesrc":"document/cse/MA2_END_2022.pdf",
+        "filecode":"MA2_end_2022"
     }
 
 
