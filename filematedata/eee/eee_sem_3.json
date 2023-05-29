@@ -1,20 +1,121 @@
 [
+
+
     {
-        "Name":"EEE SEM 3",
-        "year":"2023",
+        "Name":"Digital System Design",
+        "year":"2016",
         "semester":"Mid Semester",
-        "Download":"Download",
-        "filesrc":"file/DAA_MID_SEM4_2023.pdf",
-        "filecode":"DAA_sem4_itcse"
+        "filesrc":"document/cse/DSD_MID_2016.pdf",
+        "filecode":"DSD_mid_2016"
     },
     {
-        "Name":"EEE SEM 3",
-        "year":"2023",
+        "Name":"Digital System Design",
+        "year":"2017",
         "semester":"Mid Semester",
-        "Download":"Download",
-        "filesrc":"file/DAA_MID_SEM4_2023.pdf",
-        "filecode":"DAA_sem4_itcse"
+        "filesrc":"document/cse/DSD_MID_2017.pdf",
+        "filecode":"DSD_mid_2017"
+    },
+    {
+        "Name":"Digital System Design",
+        "year":"2018",
+        "semester":"Mid Semester",
+        "filesrc":"document/cse/DSD_MID_2018.pdf",
+        "filecode":"DSD_mid_2018"
+    },
+    {
+        "Name":"Digital System Design",
+        "year":"2016",
+        "semester":"End Semester",
+        "filesrc":"document/cse/DSD_END_2016.pdf",
+        "filecode":"DSD_end_2016"
+    },
+    {
+        "Name":"Digital System Design",
+        "year":"2017",
+        "semester":"End Semester",
+        "filesrc":"document/cse/DSD_END_2017.pdf",
+        "filecode":"DSD_end_2017"
+    },
+    {
+        "Name":"Digital System Design",
+        "year":"2018",
+        "semester":"End Semester",
+        "filesrc":"document/cse/DSD_END_2018.pdf",
+        "filecode":"DSD_end_2018"
+    },
+    {
+        "Name":"Digital System Design",
+        "year":"2019",
+        "semester":"Short Semester",
+        "filesrc":"document/cse/DSD_SS_2019.pdf",
+        "filecode":"DSD_SS_2019"
+    },
+    {
+        "Name":"Digital System Design",
+        "year":"2019",
+        "semester":"End Semester",
+        "filesrc":"document/cse/DSD_END_2019.pdf",
+        "filecode":"DSD_end_2019"
+    },
+    {
+        "Name":"Digital System Design",
+        "year":"2022",
+        "semester":"Mid Semester",
+        "filesrc":"document/cse/DSD_MID_2022.pdf",
+        "filecode":"DSD_mid_2022"
+    },
+    {
+        "Name":"Digital System Design",
+        "year":"2022",
+        "semester":"End Semester",
+        "filesrc":"document/cse/DSD_END_2022.pdf",
+        "filecode":"DSD_end_2022"
+    },
+
+
+
+
+
+
+    {
+        "Name":"Circuit Theory",
+        "year":"2022",
+        "semester":"End Semester",
+        "filesrc":"document/eee/CT_END_2022.pdf",
+        "filecode":"CT_end_2022"
+    },
+
+
+
+    {
+        "Name":"Engineering Electromagnetics",
+        "year":"2022",
+        "semester":"End Semester",
+        "filesrc":"document/eee/EE_END_2022.pdf",
+        "filecode":"EE_end_2022"
+    },
+
+
+
+    {
+        "Name":"Electrical Energy Generation and Control",
+        "year":"2022",
+        "semester":"End Semester",
+        "filesrc":"document/eee/EGC_END_2022.pdf",
+        "filecode":"EGC_end_2022"
+    },
+
+
+
+
+    {
+        "Name":"Electrical Measurement and Instrumentation",
+        "year":"2022",
+        "semester":"End Semester",
+        "filesrc":"document/eee/EMI_END_2022.pdf",
+        "filecode":"EMI_end_2022"
     }
+
 
 
 
