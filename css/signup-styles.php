@@ -53,8 +53,10 @@ body {
 .web-logo {
     position: relative;
     width: 18%;
-    top: 65px;
-    left: 70px;
+    /* top: 65px;
+    left: 70px; */
+    top: 10%;
+    left: 17%;
 }
 
 .web-logo2{
@@ -249,7 +251,8 @@ input {
     display: inline;
     position: relative;
     width: 18%;
-    top: 22px;
+    /* top: 22px; */
+    top: 3.5%;
   }
 
   .headname2 {
