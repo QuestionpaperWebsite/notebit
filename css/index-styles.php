@@ -242,6 +242,7 @@ input {
   .box2 {
     width: 100%;
     text-align: center;
+    margin-right: 18px;
   }
 
   .web-logo2 {
@@ -255,9 +256,21 @@ input {
     text-align: center;
   }
 
+  input {
+    width: 75%;
+  }
+
   .noacc {
     margin-left: 6%;
   }
+
+  .forgot {
+    margin-left: 20px;
+}
+
+    h2 {
+        margin-right: 5px;
+    }
 }
 
 </style>

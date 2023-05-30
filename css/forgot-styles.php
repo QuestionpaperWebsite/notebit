@@ -235,6 +235,7 @@ input {
   .box2 {
     width: 100%;
     text-align: center;
+    margin-right: 18px;
   }
 
   .web-logo2 {
@@ -251,6 +252,18 @@ input {
   .noacc {
     margin-left: 6%;
   }
+
+  input {
+    width: 75%;
+  }
+
+  .forgot {
+    margin-left: 20px;
+}
+
+    h2 {
+        margin-right: 5px;
+    }
 }
 
 /* email sending messages */
