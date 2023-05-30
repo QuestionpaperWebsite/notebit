@@ -60,9 +60,9 @@ body {
 
 .web-logo {
     position: relative;
-    width: 12%;
-    top: 50px;
-    left: 100px;
+    width: 18%;
+    top: 65px;
+    left: 70px;
 }
 
 .signup-image1 {
@@ -248,7 +248,8 @@ input {
   .web-logo2 {
     display: inline;
     position: relative;
-    width: 12%;
+    width: 18%;
+    top: 22px;
   }
 
   .headname2 {

@@ -28,7 +28,7 @@
         <nav>
             <div class="navbox">
                 <div class="uppercontent">
-                    <a href="branch.php" ><img src="images\notebit-new-logo.png" class="logo"></a>
+                    <a href="branch.php" ><img src="images\notebit-final-logo.png" class="logo"></a>
                     <div class="nametext">
                     <?php echo("Welcome ".$_SESSION['Name']);?>
                     </div>
@@ -84,7 +84,7 @@
               <div class="mainbox">
                 <div class="box1">
                  <div class="child1">
-                 <img src="images\notebit-new-logo.png" class="logo1">
+                 <img src="images\notebit-final-logo.png" class="logo1">
                  <!-- <div class="name">About NoteBit</div> -->
                  <h1 class="branch-aboutus">About NoteBit</h1>
                  <p class="branch-aboutus-text"> 

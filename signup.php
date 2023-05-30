@@ -24,7 +24,7 @@
 ?>
     <div class="container">
         <div class="box1">
-            <img src="images\notebit-new-logo.png" class="web-logo" alt="Logo">
+            <img src="images\notebit-final-logo.png" class="web-logo" alt="Logo">
             <h1>NoteBit</h1>
 
             <div class="slideshow-container">
@@ -53,7 +53,7 @@
         </div>
             
         <div class="box2">
-            <img src="images\notebit-new-logo.png" class="web-logo2" alt="Logo">
+            <img src="images\notebit-final-logo.png" class="web-logo2" alt="Logo">
             <h1 class="headname2">NoteBit</h1>
             <h2>Sign up to NoteBit</h2>
             <form action="signup.php" method='POST'>
