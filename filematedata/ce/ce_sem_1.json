@@ -8,6 +8,13 @@
         "filesrc":"document/cse/BEE_MID_2019.pdf",
         "filecode":"BEE_mid_2019"
     },
+     {
+        "Name":"Basics of Electrical Engineering",
+        "year":"2023",
+        "semester":"Mid Semester",
+        "filesrc":"document/cse/BEE_MID_2023.pdf",
+        "filecode":"BEE_mid_2023"
+    },
     {
         "Name":"Basics of Electrical Engineering",
         "year":"2019",
@@ -79,6 +86,13 @@
     },
     {
         "Name":"Biological Science for Engineers",
+        "year":"2023",
+        "semester":"Mid Semester",
+        "filesrc":"document/cse/BIO_MID_2023.pdf",
+        "filecode":"BIO_mid_2023"
+    },
+    {
+        "Name":"Biological Science for Engineers",
         "year":"2017",
         "semester":"Mid Semester",
         "filesrc":"document/cse/BIO_MID_2017.pdf",
@@ -120,8 +134,20 @@
         "filesrc":"document/cse/MA2_END_2022.pdf",
         "filecode":"MA2_end_2022"
     },
-
-
+     {
+        "Name":"Mathematics I",
+        "year":"2022",
+        "semester":"Mid Semester ",
+        "filesrc":"document/cse/MA 1_MID_2022.pdf",
+        "filecode":"MA1_mid_2022"
+    },
+      {
+        "Name":"Mathematics I",
+        "year":"2023",
+        "semester":"Mid Semester ",
+        "filesrc":"document/cse/MA1_MID_2023.pdf",
+        "filecode":"MA1_mid_2023"
+    },
     {
         "Name":"Mathematics I",
         "year":"2019",
@@ -160,7 +186,13 @@
 
 
 
-
+    {
+        "Name":"Programming for Problem Solving",
+        "year":"2023",
+        "semester":"Mid Semester",
+        "filesrc":"document/cse/PPS_MID_2023.pdf",
+        "filecode":"PPS_mid_2023"
+    },
     {
         "Name":"Programming for Problem Solving",
         "year":"2019",
