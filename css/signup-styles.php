@@ -112,6 +112,13 @@ input {
     text-decoration: none; 
 }
 
+#default-signup-message {
+    font-size: 0.8rem;
+    color: pink;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
 #invalid-signup-data {
     font-size: 0.8rem;
     color: red;

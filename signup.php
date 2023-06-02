@@ -82,6 +82,7 @@
                     <i class="fa-solid fa-lock icon"></i>
                     <input type="password" name="cpass" class="form-element" placeholder="Confirm Password" required> 
                 </div> <br>
+                <p id="default-signup-message">Please include one uppercase, one lowercase,<br> one special character and one digit in your password</p>
                 <p id="invalid-signup-data"></p>
                 <p id="valid-signup-data"></p>
                 <button type="submit" class="signin" id="submitbutton">SIGN UP</button> 
