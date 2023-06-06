@@ -173,6 +173,12 @@ p{
     display:flex;
      justify-content: space-between;
 }
+
+.faiz-name {
+   position: relative;
+   right: 2%;
+}
+
 .box2 h2{
     color: white;
     font-size: 35px;
@@ -526,6 +532,16 @@ td a:hover { color : #003cff; transition: 0.5s}
 
     h3 {
         margin-left: 12%;
+    }
+
+    .ujjwal-name {
+        position: relative;
+        left: 5.5%;
+    }
+
+    .rahul-name {
+        position: relative;
+        left: 10.5%;
     }
 
     .box2 {

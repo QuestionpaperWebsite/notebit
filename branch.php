@@ -110,9 +110,9 @@
                  </div>
 
                  <div class="name">
-                 <h3>Faiz Khan</h3>
-                 <h3>Ujjwal Kumar</h3>
-                 <h3>Rahul Raj</h3>
+                 <h3 class="faiz-name">Faiz Khan</h3>
+                 <h3 class="ujjwal-name">Ujjwal Kumar</h3>
+                 <h3 class="rahul-name">Rahul Raj</h3>
                  </div>
                  </div>
                 </div>
