@@ -75,12 +75,12 @@
 
                 <div class="pass">
                     <i class="fa-solid fa-lock icon"></i>
-                    <input type="password" name="pass" class="form-element" placeholder="Password" required> 
+                    <input type="password" name="pass" class="form-element" placeholder="Password" onfocusin="touchme()" onfocusout="hateme()" required> 
                 </div> 
 
                 <div class="confirmpass">
                     <i class="fa-solid fa-lock icon"></i>
-                    <input type="password" name="cpass" class="form-element" placeholder="Confirm Password" required> 
+                    <input type="password" name="cpass" class="form-element" placeholder="Confirm Password" required>  
                 </div> <br>
                 <p id="default-signup-message">Please include one uppercase, one lowercase,<br> one special character and one digit in your password</p>
                 <p id="invalid-signup-data"></p>

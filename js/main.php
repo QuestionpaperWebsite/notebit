@@ -50,4 +50,14 @@ function showChangePasswordForm() {
 //    };
 // });
 
+var showme  = document.getElementById("default-signup-message");
+    function touchme()
+    {
+        showme.style.display="block";
+    }
+    function hateme()
+    {
+        showme.style.display="none";
+    }
+
 </script>

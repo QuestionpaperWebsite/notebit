@@ -113,6 +113,7 @@ input {
 }
 
 #default-signup-message {
+    display:none;
     font-size: 0.8rem;
     color: pink;
     margin-left: 20px;
