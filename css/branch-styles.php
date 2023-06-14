@@ -565,7 +565,7 @@ td a:hover { color : #003cff; transition: 0.5s}
         position: relative;
         background-color: #1D2C62;
         width: 100%;
-        height: 25vh;
+        height: 40vh;
         z-index: 2;
         text-align: center;
         left: 0;

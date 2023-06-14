@@ -50,6 +50,8 @@
                       }
                       ?>
                       <li ><a href="#" onclick="about()" class="aboutcolor">ABOUT</a></li>
+                      <li ><a href="https://forms.gle/AM1din847Aap6uyn8" class="aboutcolor" target="_blank">FEEDBACK</a></li>
+                      <li ><a href="https://forms.gle/EimvDXUg6LSE58L99" class="aboutcolor" target="_blank">CONTRIBUTE</a></li>
                       <li ><a href="logout.php" class="logoutcolor">LOGOUT</a></li>
                     </ul>
                 </div>
