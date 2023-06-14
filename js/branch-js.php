@@ -8,7 +8,6 @@ var show_ce = document.getElementById('show_ce');
 var aboutus = document.getElementById('aboutus');
 var deafult_show = document.getElementById('deafult');
 var sem_button_show = document.getElementById('sem');
-var showadmin = document.getElementById('adminmenu');
 
 
 var showsem1 = document.getElementById("sem1");
