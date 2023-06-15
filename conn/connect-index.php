@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
          $_SESSION['authenticated'] =true;
         header("Location: branch.php");
     }if($mail=='admin@notebit' && $password='admin'){
-        $_SESSION['authenticated'] =true;
+        $_SESSION['adminauthenticated'] =true;
         header("Location: dashboard.php");
     }
     else {

@@ -1,11 +1,14 @@
 <?php
-    
     include 'conn\connect-index.php';
     include 'conn\connect-branch.php';
     include 'conn\connect-signup.php';
     include 'conn\connect-forgot.php';
     include 'conn\latestuser.php';
     include 'conn\connection.php';
+    if (!isset($_SESSION['adminauthenticated']) || !$_SESSION['adminauthenticated']) {
+        header("Location: index.php");
+        exit();
+    }
     session_start();
 ?>
 <!DOCTYPE html>
