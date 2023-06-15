@@ -70,6 +70,12 @@ nav svg{
     height: 5vh;
     display: flex;
 }
+
+.uppercontent img {
+    position: relative;
+    bottom: 10%;
+}
+
 .nametext{
     display: flex;
     justify-content: center;
@@ -268,6 +274,11 @@ p{
 .aboutus{
     background-color: #374661;
 }
+
+.child1 img {
+    scale: 0.9;
+}
+
 .adminmenu{
     background-color: #374661;
 }
@@ -536,12 +547,12 @@ td a:hover { color : #003cff; transition: 0.5s}
 
     .ujjwal-name {
         position: relative;
-        left: 5.5%;
+        left: 6.5%;
     }
 
     .rahul-name {
         position: relative;
-        left: 10.5%;
+        left: 12.5%;
     }
 
     .box2 {
@@ -602,6 +613,28 @@ td a:hover { color : #003cff; transition: 0.5s}
         background-color: #222739;
         border-bottom: 5px solid black ;
     }
+
+    #aboutus {
+        font-size: 0.9rem;
+    }
+
+    .branch-aboutus {
+        font-size: 1.6rem;
+    }
+
+    .child2 h1 {
+        font-size: 1.6rem;
+    }
+
+    .box2 h2 {
+        font-size: 1.6rem;
+    }
+
+    .menut {
+        margin-top: -1%;
+    }
+
+    
     .ttbox{
         width: 100%;
         height: 20vh;

@@ -30,7 +30,12 @@
                 <div class="uppercontent">
                     <a href="branch.php" ><img src="images\notebit-final-logo.png" class="logo"></a>
                     <div class="nametext">
-                    <?php echo("Welcome ".$_SESSION['Name']);?>
+                    <?php 
+                        $name = $_SESSION['Name'];
+                        $nameArray = explode(' ', $name);
+                        $firstName = $nameArray[0];
+                        echo("Welcome ".$firstName);
+                    ?>
                     </div>
                 </div>
                 <div class="navcon" id="navcon">
