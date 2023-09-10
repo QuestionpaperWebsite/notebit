@@ -4,11 +4,35 @@ ini_set('display_errors', 0);
 session_start();
 include 'conn\connection.php';
 // If form is submitted, process the data
+
+
+//----------------------------------------------- TEST PURPOSE----------------------------------------------------
+
+// if(isset($_POST['submit_ind'])){
+//     $mail = $_POST['mail'];
+//     $password = $_POST['password'];
+//     $password = mysqli_real_escape_string($conn, $sql);   
+//     $sql = "SELECT * FROM `notebitdata` WHERE mail = '$mail' AND pass = '$password'";
+    
+//     $result = mysqli_query($conn, $sql);
+//     $show = mysqli_fetch_assoc($result);
+//     if ((mysqli_num_rows($result)) > 0) {
+//         //echo "Login successful!";
+//          $_SESSION['Name'] = $show['fname'] ." ". $show['lname'];
+//          $_SESSION['mail'] = $mail;
+//          $_SESSION['pass'] = $password;
+//         //  $_SESSION['authenticated'] =true;
+//         header("Location: branch.php");
+//     }
+// }
+
+//------------------------------------------------------------------------------------------------------------------
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Retrieve form data
     $mail = $_POST['mail'];
     $password = $_POST['password'];
-   
+    $password = mysqli_real_escape_string($conn, $password);   
+    // echo $password;
     $sql = "SELECT * FROM `notebitdata` WHERE mail = '$mail' AND pass = '$password'";
     
     $result = mysqli_query($conn, $sql);

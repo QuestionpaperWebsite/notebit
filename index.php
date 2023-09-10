@@ -57,7 +57,7 @@
             <form action="index.php" method="POST">
                 <div class="email">
                     <i class="fa-solid fa-envelope icon"></i>
-                    <input type="text" class="form-element" name="mail" placeholder="Email Address" id="" required> <br>
+                    <input type="email" class="form-element" name="mail" placeholder="Email Address" id="" required> <br>
                 </div>
                
                 <div class="pass">
@@ -67,7 +67,7 @@
                 <p id="invalid-login"></p>
                 <a href="forgot.php" class="forgot">Forgot Password?</a> <br>
                 <p id="invalid-login-message"></p> 
-                <button type="submit" class="signin">SIGN IN</button> 
+                <button type="submit_ind" class="signin">SIGN IN</button> 
             </form>
             <!-- <i class="fa-brands fa-discord discord-logo"></i> -->
             <!-- <button type="submit" class="discord">Sign in with Discord</button> -->
